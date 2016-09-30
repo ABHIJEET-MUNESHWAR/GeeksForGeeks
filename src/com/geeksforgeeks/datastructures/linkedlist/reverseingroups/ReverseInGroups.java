@@ -1,13 +1,12 @@
-package com.geeksforgeeks.datastructures.linkedlist.alternatesplit;
+package com.geeksforgeeks.datastructures.linkedlist.reverseingroups;
 
 /**
  * Created by Abhijeet on 24/09/16.
- * http://www.geeksforgeeks.org/alternating-split-of-a-given-singly-linked-list/
  */
 
 import java.util.*;
 
-public class LinkedList {
+public class ReverseInGroups {
     Node head;
 
     class Node {
@@ -20,7 +19,7 @@ public class LinkedList {
         }
     }
 
-    private void push(int data) {
+    public void push(int data) {
         Node node = new Node(data);
         if (head == null) {
             head = node;
@@ -33,7 +32,7 @@ public class LinkedList {
         }
     }
 
-    private void printList() {
+    public void printList() {
         if (head == null) {
             return;
         }
@@ -45,33 +44,33 @@ public class LinkedList {
         System.out.println();
     }
 
-    private void alternateSplit(LinkedList list1, LinkedList list2) {
-        if (this.head == null) {
-            return;
-        }
-        Node curr = this.head;
-        Node next = curr.next;
-        while (next.next != null) {
-            list1.push(curr.data);
-            list2.push(next.data);
-            curr = next.next;
+    public Node reverseInGroups(Node head, int k) {
+        Node prev = null;
+        Node curr = head;
+        Node next = null;
+        int counter = 0;
+        while ((counter < k) && (curr != null)) {
             next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+            counter++;
         }
-        list1.push(curr.data);
-        list2.push(next.data);
+        if (next != null) {
+            head.next = reverseInGroups(next, k);
+        }
+        return prev;
     }
 
     public static void main(String[] args) {
-        LinkedList list = new LinkedList();
         Scanner sc = new Scanner(System.in);
+        ReverseInGroups rig = new ReverseInGroups();
         int size = sc.nextInt();
+        int k = sc.nextInt();
         for (int i = 0; i < size; i++) {
-            list.push(sc.nextInt());
+            rig.push(sc.nextInt());
         }
-        LinkedList a = new LinkedList();
-        LinkedList b = new LinkedList();
-        list.alternateSplit(a, b);
-        a.printList();
-        b.printList();
+        rig.head = rig.reverseInGroups(rig.head, k);
+        rig.printList();
     }
 }
