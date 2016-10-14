@@ -1,12 +1,14 @@
-package com.geeksforgeeks.datastructures.linkedlist.addtwonumbersreverse;
+package com.geeksforgeeks.datastructures.linkedlist.addtwonumbers;
 
 /**
  * Created by Abhijeet on 01/10/16.
  */
 
-import java.util.*;
+/**
+ * Created by Abhijeet on 01/10/16.
+ */import java.util.*;
 
-public class AddTwoNumbersReverse {
+public class AddTwoNumbers {
     Node head;
 
     class Node {
@@ -76,9 +78,9 @@ public class AddTwoNumbersReverse {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        AddTwoNumbersReverse list1 = new AddTwoNumbersReverse();
-        AddTwoNumbersReverse list2 = new AddTwoNumbersReverse();
-        AddTwoNumbersReverse list3 = new AddTwoNumbersReverse();
+        AddTwoNumbers list1 = new AddTwoNumbers();
+        AddTwoNumbers list2 = new AddTwoNumbers();
+        AddTwoNumbers list3 = new AddTwoNumbers();
         int size1 = sc.nextInt();
         int size2 = sc.nextInt();
         for (int i = 0; i < size1; i++) {
