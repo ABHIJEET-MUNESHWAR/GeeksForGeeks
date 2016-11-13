@@ -6,7 +6,7 @@ package com.geeksforgeeks.datastructures.linkedlist.segregateevenodd;
 
 import java.util.*;
 
-// Java program to segregate even and odd nodes in a
+// Java program to segregate even and odd nodes in balancedparentheses
 // Linked List
 class LinkedList
 {
@@ -89,8 +89,8 @@ class LinkedList
         }
     }
 
-    /*  Given a reference (pointer to pointer) to the head
-        of a list and an int, push a new node on the front
+    /*  Given balancedparentheses reference (pointer to pointer) to the head
+        of balancedparentheses list and an int, push balancedparentheses new node on the front
         of the list. */
     void push(int new_data)
     {
@@ -105,7 +105,7 @@ class LinkedList
         head = new_node;
     }
 
-    // Utility function to print a linked list
+    // Utility function to print balancedparentheses linked list
     void printList()
     {
         Node temp = head;
