@@ -1,0 +1,16 @@
+1) The maximum number of nodes at level ‘l’ of a binary tree is 2^l-1.
+2) The maximum number of nodes in a binary tree of height ‘h’ is 2^h – 1.
+3) In a Binary Tree with N nodes, minimum possible height or minimum number of levels is  ⌈ Log2(N+1) ⌉
+4) A Binary Tree with L leaves has at least   ⌈ Log2L ⌉ + 1   levels
+5) In Binary tree, number of leaf nodes is always one more than nodes with two children.
+6) Full Binary Tree:
+    A Binary Tree is full if every node has 0 or 2 children. Following are examples of full binary tree.
+7) In a Full Binary, number of leaf nodes is number of internal nodes plus 1
+8) Complete Binary Tree:
+    A Binary Tree is complete Binary Tree if all levels are completely filled except possibly the last level and the last level has all keys as left as possible
+9) Perfect Binary Tree:
+    A Binary tree is Perfect Binary Tree in which all internal nodes have two children and all leaves are at same level.
+10) In a k-ary tree where every node has either 0 or k children, following property is always true.
+L = (k - 1)*I + 1
+Where L = Number of leaf nodes
+      I = Number of internal nodes
