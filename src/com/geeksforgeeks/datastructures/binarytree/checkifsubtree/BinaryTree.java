@@ -80,6 +80,6 @@ public class BinaryTree {
         if (tree.isSubtree(tree.root1, tree.root2))
             System.out.println("Tree 2 is subtree of Tree 1 ");
         else
-            System.out.println("Tree 2 is not a subtree of Tree 1");
+            System.out.println("Tree 2 is not checkifbst subtree of Tree 1");
     }
 }

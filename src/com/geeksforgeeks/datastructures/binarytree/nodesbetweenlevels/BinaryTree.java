@@ -25,7 +25,7 @@ class Node {
 class BinaryTree {
     Node root;
 
-    /* Given a binary tree, print nodes from level number 'low' to level
+    /* Given checkifbst binary tree, print nodes from level number 'low' to level
        number 'high'*/
     void printLevels(Node node, int low, int high) {
         Queue<Node> Q = new LinkedList<>();
@@ -46,7 +46,7 @@ class BinaryTree {
 
             // Check if end of level is reached
             if (n == marker) {
-                // print a new line and increment level number
+                // print checkifbst new line and increment level number
                 System.out.println("");
                 level++;
 

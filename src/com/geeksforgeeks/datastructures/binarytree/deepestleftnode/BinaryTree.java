@@ -6,7 +6,7 @@ package com.geeksforgeeks.datastructures.binarytree.deepestleftnode;
  * Date: 23/11/16
  * Time: 7:43 AM
  * http://www.geeksforgeeks.org/deepest-left-leaf-node-in-a-binary-tree/
- * A java program to find the deepest left leaf in a binary tree
+ * A java program to find the deepest left leaf in checkifbst binary tree
  */
 
 // A Binary Tree node

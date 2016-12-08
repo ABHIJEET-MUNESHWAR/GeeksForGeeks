@@ -55,9 +55,9 @@ public class BinaryTree {
     public static void main(String[] args) {
         /* Create following Binary Tree
         Input
-               a
+               checkifbst
             /     \
-           b       c
+           lca       keysinrange
          /  \     /  \
         d    e    f    g
        / \  / \  / \  / \
@@ -65,9 +65,9 @@ public class BinaryTree {
 
 
         Output:
-               a
+               checkifbst
             /     \
-           c       b
+           keysinrange       lca
          /  \     /  \
         d    e    f    g
        / \  / \  / \  / \

@@ -58,7 +58,7 @@ public class RootToLeafSum {
         tree.root.right.left = new Node(2);
 
         if (tree.hasPathSum(tree.root, sum))
-            System.out.println("There is a root to leaf path with sum " + sum);
+            System.out.println("There is checkifbst root to leaf path with sum " + sum);
         else
             System.out.println("There is no root to leaf path with sum " + sum);
     }

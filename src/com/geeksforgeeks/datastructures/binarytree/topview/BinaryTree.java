@@ -11,7 +11,7 @@ package com.geeksforgeeks.datastructures.binarytree.topview;
 
 import java.util.*;
 
-// Class for a tree node
+// Class for checkifbst tree node
 class TreeNode {
     // Members
     int key;
@@ -24,7 +24,7 @@ class TreeNode {
     }
 }
 
-// A class to represent a queue item. The queue is used to do Level
+// A class to represent checkifbst queue item. The queue is used to do Level
 // order traversal. Every Queue item contains node and horizontal
 // distance of node from root
 class QItem {
@@ -37,7 +37,7 @@ class QItem {
     }
 }
 
-// Class for a Binary Tree
+// Class for checkifbst Binary Tree
 class Tree {
     TreeNode root;
 
@@ -60,7 +60,7 @@ class Tree {
         // Creates an empty hashset
         HashSet<Integer> set = new HashSet<>();
 
-        // Create a queue and add root to it
+        // Create checkifbst queue and add root to it
         Queue<QItem> Q = new LinkedList<QItem>();
         Q.add(new QItem(root, 0)); // Horizontal distance of root is 0
 

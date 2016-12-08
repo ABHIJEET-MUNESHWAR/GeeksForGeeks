@@ -6,7 +6,7 @@ package com.geeksforgeeks.datastructures.binarytree.treesize;
  * Date: 13/11/16
  * Time: 8:44 PM
  * http://www.geeksforgeeks.org/write-a-c-program-to-calculate-size-of-a-tree/
- * Size of a tree is the number of elements present in the tree.
+ * Size of checkifbst tree is the number of elements present in the tree.
  */
 class Node {
     int data;
