@@ -11,24 +11,31 @@ import java.util.*;
 
 public class LongestParenthesis {
     private int getLongestParenthesisLength(String str) {
-        Stack<String> stack = new Stack<String>();
-        int len = str.length();
-        for (int i = 0; i < len; i++) {
+        Stack<Integer> stack = new Stack<Integer>();
+        int n = str.length();
+        int length = 0;
+        int lastMatchedIndex = -1;
+        for (int i = 0; i < n; i++) {
             char ch = str.charAt(i);
             switch (ch) {
                 case '(':
-                    stack.push("(");
+                    stack.push(i);
                     break;
                 case ')':
-                    if ((!stack.isEmpty()) && (stack.peek().equals("("))) {
-                        stack.pop();
+                    if (stack.isEmpty()) {
+                        lastMatchedIndex = i;
                     } else {
-                        stack.push(")");
+                        stack.pop();
+                        if (stack.isEmpty()) {
+                            length = Math.max(length, i - lastMatchedIndex);
+                        } else {
+                            length = Math.max(length, i - stack.peek());
+                        }
                     }
                     break;
             }
         }
-        return (len - stack.size());
+        return length;
     }
 
     public static void main(String[] args) {

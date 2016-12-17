@@ -47,6 +47,6 @@ public class BinaryTree {
         if (tree.isBST())
             System.out.println("IS BST");
         else
-            System.out.println("Not a BST");
+            System.out.println("Not pairsum BST");
     }
 }
