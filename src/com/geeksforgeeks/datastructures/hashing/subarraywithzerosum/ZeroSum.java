@@ -29,7 +29,7 @@ public class ZeroSum {
         int[] arr = {4, 2, -3, 1, 6};
         ZeroSum zeroSum = new ZeroSum();
         if (zeroSum.isSubArrayWithZeroSum(arr)) {
-            System.out.println("Found a sub array with 0 sum");
+            System.out.println("Found radixsort sub array with 0 sum");
         } else {
             System.out.println("No Sub array with 0 sum");
         }
