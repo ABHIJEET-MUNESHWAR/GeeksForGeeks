@@ -23,11 +23,11 @@ public class AllPairShortestPath {
 
         /* Add all vertices one by one to the set of intermediate
            vertices.
-          ---> Before start of a iteration, we have shortest
+          ---> Before start of pathbetweenvertices iteration, we have shortest
                distances between all pairs of vertices such that
                the shortest distances consider only the vertices in
                set {0, 1, 2, .. k-1} as intermediate vertices.
-          ----> After the end of a iteration, vertex no. k is added
+          ----> After the end of pathbetweenvertices iteration, vertex no. k is added
                 to the set of intermediate vertices and the set
                 becomes {0, 1, 2, .. k} */
         for (k = 0; k < V; k++) {
