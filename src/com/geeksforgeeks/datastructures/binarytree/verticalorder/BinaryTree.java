@@ -36,7 +36,7 @@ public class BinaryTree {
     }
 
     private void verticalOrderUtil(Node node, int distance, HashMap<Integer, String> hashMap) {
-        if(node==null) {
+        if (node == null) {
             return;
         }
         verticalOrderUtil(node.left, distance - 1, hashMap);

@@ -8,7 +8,7 @@ package com.geeksforgeeks.algorithms.dynamic.eggdrop;
  * http://www.geeksforgeeks.org/dynamic-programming-set-11-egg-dropping-puzzle/
  */
 public class EggDrop {
-    private int calculteMinPrice(int egg, int floor) {
+    private int calculateMinPrice(int egg, int floor) {
         int[][] result = new int[egg + 1][floor + 1];
         for (int i = 0; i <= floor; i++) {
             result[1][i] = i;
@@ -31,7 +31,7 @@ public class EggDrop {
         EggDrop eggDrop = new EggDrop();
         int egg = 2;
         int floor = 10;
-        int minTrials = eggDrop.calculteMinPrice(egg, floor);
+        int minTrials = eggDrop.calculateMinPrice(egg, floor);
         System.out.println(minTrials);
     }
 }

@@ -1,4 +1,4 @@
-package com.geeksforgeeks.algorithms.dynamic.cuttongrod;
+package com.geeksforgeeks.algorithms.dynamic.cuttingrod;
 
 /**
  * Created using IntelliJ IDEA.
