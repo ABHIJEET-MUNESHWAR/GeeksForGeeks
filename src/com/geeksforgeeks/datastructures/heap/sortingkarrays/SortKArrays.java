@@ -36,7 +36,6 @@ public class SortKArrays {
             queue.add(new ArrayContainer(arr[i], 0));
             total = total + arr[i].length;
         }
-
         int m = 0;
         int result[] = new int[total];
 
