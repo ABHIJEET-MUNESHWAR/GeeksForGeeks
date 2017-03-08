@@ -8,22 +8,22 @@ package com.geeksforgeeks.algorithms.dynamic.CoinChange;
  * http://www.geeksforgeeks.org/dynamic-programming-set-7-coin-change/
  */
 public class CoinChange {
-    private int countWays(int[] arr, int m, int n) {
-        int[] dp = new int[n + 1];
+    private int countWays(int[] coins, int size, int sum) {
+        int[] dp = new int[sum + 1];
         dp[0] = 1;
-        for (int i = 0; i < m; i++) {
-            for (int j = arr[i]; j <= n; j++) {
-                dp[j] += dp[j - arr[i]];
+        for (int i = 0; i < size; i++) {
+            for (int j = coins[i]; j <= sum; j++) {
+                dp[j] += dp[j - coins[i]];
             }
         }
-        return dp[n];
+        return dp[sum];
     }
 
     public static void main(String[] args) {
         CoinChange coinChange = new CoinChange();
         int arr[] = {1, 2, 3};
         int m = arr.length;
-        int n = 4;
-        System.out.println(coinChange.countWays(arr, m, n));
+        int sum = 4;
+        System.out.println(coinChange.countWays(arr, m, sum));
     }
 }
