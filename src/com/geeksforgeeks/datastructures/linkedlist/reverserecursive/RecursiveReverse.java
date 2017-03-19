@@ -1,4 +1,4 @@
-package com.geeksforgeeks.datastructures.linkedlist.reverseiterative;
+package com.geeksforgeeks.datastructures.linkedlist.reverserecursive;
 
 import java.util.Scanner;
 
@@ -7,6 +7,7 @@ import java.util.Scanner;
  * User: abhijeet
  * Date: 04/03/17
  * Time: 7:56 PM
+ * http://www.geeksforgeeks.org/write-a-function-to-reverse-the-nodes-of-a-linked-list/
  */
 class Node {
     int data;
@@ -18,7 +19,7 @@ class Node {
     }
 }
 
-public class IterativeReverse {
+public class RecursiveReverse {
     static Node head;
 
     private void push(int data) {
@@ -56,7 +57,7 @@ public class IterativeReverse {
     }
 
     public static void main(String[] args) {
-        IterativeReverse r = new IterativeReverse();
+        RecursiveReverse r = new RecursiveReverse();
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
         for (int i = 0; i < size; i++) {
