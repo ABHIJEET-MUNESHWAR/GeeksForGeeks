@@ -1,16 +1,11 @@
-package com.geeksforgeeks.datastructures.binarytree.leftview;
+package com.geeksforgeeks.datastructures.binarytree.rightview;
 
 /**
  * Created using IntelliJ IDEA.
- * User: Abhijeet
- * Date: 22/11/16
- * Time: 7:53 AM
- * http://www.geeksforgeeks.org/print-left-view-binary-tree/
+ * User: abhijeet
+ * Date: 19/03/17
+ * Time: 6:46 PM
  */
-// Java program to print left view of binary tree
-
-/* Class containing left and right child of current
-node and key value*/
 class Node {
     int data;
     Node left, right;
@@ -21,11 +16,11 @@ class Node {
     }
 }
 
-public class LeftView {
+public class RightView {
     Node root;
     int maxLevel = 0;
 
-    private void leftView(Node node, int level) {
+    private void rightView(Node node, int level) {
         if (node == null) {
             return;
         }
@@ -33,8 +28,8 @@ public class LeftView {
             System.out.println(node.data);
             maxLevel = level;
         }
-        leftView(node.left, level + 1);
-        leftView(node.right, level + 1);
+        rightView(node.right, level + 1);
+        rightView(node.left, level + 1);
     }
 
     /* testing for example nodes */
@@ -50,7 +45,7 @@ public class LeftView {
 
 
          */
-        LeftView tree = new LeftView();
+        RightView tree = new RightView();
         tree.root = new Node(12);
         tree.root.left = new Node(10);
         tree.root.right = new Node(30);
@@ -58,6 +53,6 @@ public class LeftView {
         tree.root.right.right = new Node(40);
         tree.root.right.left.left = new Node(27);
 
-        tree.leftView(tree.root, 1);
+        tree.rightView(tree.root, 1);
     }
 }
