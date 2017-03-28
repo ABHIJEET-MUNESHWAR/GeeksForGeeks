@@ -51,6 +51,5 @@ public class IterativePreOrder {
         tree.root.left.right = new Node(5);
         tree.root.right.left = new Node(2);
         tree.iterativePreOrder(tree.root);
-
     }
 }
