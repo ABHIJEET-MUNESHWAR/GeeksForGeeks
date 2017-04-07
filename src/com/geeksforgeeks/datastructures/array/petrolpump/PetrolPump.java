@@ -6,6 +6,7 @@ package com.geeksforgeeks.datastructures.array.petrolpump;
  * Date: 06-04-2017
  * Time: 09:21 AM
  * http://stackoverflow.com/questions/2286849/algorithm-for-truck-moving-around-a-circle-of-gas-stations
+ * https://leetcode.com/problems/gas-station/?tab=Description#/solutions
  */
 public class PetrolPump {
 
