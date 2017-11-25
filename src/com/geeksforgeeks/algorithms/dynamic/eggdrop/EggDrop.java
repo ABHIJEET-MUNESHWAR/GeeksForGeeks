@@ -28,10 +28,10 @@ public class EggDrop {
     }
 
     public static void main(String[] args) {
-        EggDrop eggDrop = new EggDrop();
-        int egg = 2;
-        int floor = 10;
-        int minTrials = eggDrop.calculateMinPrice(egg, floor);
+        EggDrop eggDrop   = new EggDrop();
+        int     egg       = 2;
+        int     floor     = 10;
+        int     minTrials = eggDrop.calculateMinPrice(egg, floor);
         System.out.println(minTrials);
     }
 }
