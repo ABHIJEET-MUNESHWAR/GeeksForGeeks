@@ -10,7 +10,7 @@ public class KthSmallestElement {
     public static void main(String[] args) {
         int[] list1 = new int[]{3, 4, 10, 23, 45, 55, 56, 58, 60, 65};
         int[] list2 = new int[]{3, 3, 3, 15, 16, 28, 50, 70, 71, 72};
-        int k = 13;
+        int k = 12;
 
         int kthSmallest = kthSmallest(list1, list2, k);
         System.out.println(k + "th smallest is " + kthSmallest);
@@ -53,5 +53,27 @@ public class KthSmallestElement {
         }
 
         return 0;
+    }
+    private int findKthSmallestElement(int[] list1, int[] list2, int k) {
+        int l1 = list1.length;
+        int l2 = list2.length;
+        int index = 0;
+        int i, j;
+        for (i = 0, j = 0; i < l1 && j < l2; ) {
+            if (list1[i] < list2[j]) {
+                k--;
+                if (k == 0) {
+                    return list1[i];
+                }
+                i++;
+            } else {
+                k--;
+                if (k == 0) {
+                    return list2[j];
+                }
+                j++;
+            }
+        }
+        return -1;
     }
 }
