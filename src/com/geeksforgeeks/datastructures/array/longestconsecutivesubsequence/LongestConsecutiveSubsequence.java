@@ -7,6 +7,7 @@ import java.util.HashSet;
  * User: abhijeet
  * Date: 12/02/17
  * Time: 5:11 PM
+ * http://www.geeksforgeeks.org/longest-consecutive-subsequence/
  */
 public class LongestConsecutiveSubsequence {
     private static int findLongestConseqSubseq(int[] arr, int n) {
