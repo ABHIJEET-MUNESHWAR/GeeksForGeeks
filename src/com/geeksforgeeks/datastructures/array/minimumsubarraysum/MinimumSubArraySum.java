@@ -26,6 +26,23 @@ public class MinimumSubArraySum {
         return minLength;
     }
 
+    private int smallestSubWithSum2(int[] input, int size, int key) {
+        int start = 0, end = 0;
+        int currSum = 0, minLength = size + 1;
+        while (end < size) {
+            while (currSum <= key && end < size) {
+                currSum += input[end++];
+            }
+            while (currSum > key && start < size) {
+                if (end - start < minLength) {
+                    minLength = end - start;
+                }
+                currSum -= input[start++];
+            }
+        }
+        return minLength;
+    }
+
     public static void main(String[] args) {
         MinimumSubArraySum minimumSubArraySum = new MinimumSubArraySum();
 

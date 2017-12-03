@@ -7,6 +7,7 @@ package com.geeksforgeeks.datastructures.array.petrolpump;
  * Time: 09:21 AM
  * http://stackoverflow.com/questions/2286849/algorithm-for-truck-moving-around-a-circle-of-gas-stations
  * https://leetcode.com/problems/gas-station/?tab=Description#/solutions
+ * The reason this works is because if you start at station i and run out of gas between stations k and k+1, then you will also run out of gas before station k+1 if you start at any station between i and k.
  */
 public class PetrolPump {
 
