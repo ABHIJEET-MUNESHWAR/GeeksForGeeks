@@ -42,6 +42,7 @@ public class SumTwoLinkedLists {
         Node node = head;
         while (node != null) {
             System.out.println(node.data);
+            node = node.next;
         }
     }
 
@@ -69,51 +70,56 @@ public class SumTwoLinkedLists {
         return result;
     }
 
-    private void pushToList(Node node, int data) {
+    private Node pushToList(Node node, int data) {
         Node newNode = new Node(data);
         newNode.next = node;
         node = newNode;
+        return node;
     }
 
-    private void addCarryToRemaining(Node head1, Node curr, int carry, Node head3) {
+    private Node addCarryToRemaining(Node head1, Node curr, int carry, Node head3) {
         int sum = 0;
         if (head1 != curr) {
             addCarryToRemaining(head1.next, curr, carry, head3);
             sum = head1.data + carry;
             carry = sum / 10;
             sum = sum % 10;
-            pushToList(head3, sum);
+            head3 = pushToList(head3, sum);
         }
+        return head3;
     }
 
-    private void sumTwoLinkedLists(Node head1, Node head2, Node head3) {
+    private void sumTwoLinkedLists(Node head1, Node head2) {
         int size1 = getSize(head1);
         int size2 = getSize(head2);
         Node curr;
         if (head1 == null) {
-            head3 = head2;
+            head = head2;
             return;
         }
         if (head2 == null) {
-            head3 = head1;
+            head = head1;
             return;
         }
         int carry = 0;
         if (size1 == size2) {
-            head3 = addSameSize(head1, head2, carry);
+            head = addSameSize(head1, head2, carry);
         } else {
-            int diff = Math.abs(size1 = size2);
+            int diff = Math.abs(size1 - size2);
             if (size1 < size2) {
                 Node temp = head1;
                 head1 = head2;
                 head2 = temp;
             }
-            for (curr = head1; curr != null; curr = curr.next) ;
-            head3 = addSameSize(head1, head2, carry);
-            addCarryToRemaining(head1, curr, carry, head3);
+            curr = head1;
+            while (diff-- > 0) {
+                curr = curr.next;
+            }
+            head = addSameSize(curr, head2, carry);
+            head = addCarryToRemaining(head1, curr, carry, head);
         }
         if (carry != 0) {
-            pushToList(head3, carry);
+            head = pushToList(head, carry);
         }
     }
 
@@ -130,7 +136,7 @@ public class SumTwoLinkedLists {
         for (int i = 0; i < size2; i++) {
             LinkedList2.push(sc.nextInt());
         }
-        LinkedList3.sumTwoLinkedLists(LinkedList1.head, LinkedList2.head, LinkedList3.head);
+        LinkedList3.sumTwoLinkedLists(LinkedList1.head, LinkedList2.head);
         LinkedList3.printList();
     }
 
