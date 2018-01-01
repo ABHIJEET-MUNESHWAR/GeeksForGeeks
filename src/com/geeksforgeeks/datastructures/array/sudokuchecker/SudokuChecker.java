@@ -38,7 +38,7 @@ public class SudokuChecker {
         return true;
     }
 
-    static int[][] sMatrix = {
+    static int[][] sudokuMatrix = {
 
             {5, 3, 4, 6, 7, 8, 9, 1, 2},
             {6, 7, 2, 1, 9, 5, 3, 4, 8},
@@ -76,10 +76,10 @@ public class SudokuChecker {
     }
 
     public static void main(String[] args) {
-        for (int i = 0; i < sMatrix.length; i++) {
-            for (int j = 0; j < sMatrix.length; j++) {
-                rSum += sMatrix[i][j];
-                cSum += sMatrix[j][i];
+        for (int i = 0; i < sudokuMatrix.length; i++) {
+            for (int j = 0; j < sudokuMatrix.length; j++) {
+                rSum += sudokuMatrix[i][j];
+                cSum += sudokuMatrix[j][i];
             }
             rSumArray[i] = rSum;
             cSumArray[i] = cSum;
@@ -87,35 +87,35 @@ public class SudokuChecker {
             cSum = 0;
         }
 
-        for (int i = 0; i < sMatrix.length; i++) {
-            for (int j = 0; j < sMatrix.length; j++) {
+        for (int i = 0; i < sudokuMatrix.length; i++) {
+            for (int j = 0; j < sudokuMatrix.length; j++) {
                 if (i <= 2 && j <= 2) {
-                    boxSumArray[0] += sMatrix[i][j];
+                    boxSumArray[0] += sudokuMatrix[i][j];
                 }
                 if (i <= 2 && (j >= 3 && j <= 5)) {
-                    boxSumArray[1] += sMatrix[i][j];
+                    boxSumArray[1] += sudokuMatrix[i][j];
                 }
                 if (i <= 2 && (j >= 6 && j <= 8)) {
-                    boxSumArray[2] += sMatrix[i][j];
+                    boxSumArray[2] += sudokuMatrix[i][j];
                 }
                 if ((i >= 3 && i <= 5) && (j <= 2)) {
-                    boxSumArray[3] += sMatrix[i][j];
+                    boxSumArray[3] += sudokuMatrix[i][j];
                 }
                 if ((i >= 3 && i <= 5) && (j >= 3 && j <= 5)) {
-                    boxSumArray[4] += sMatrix[i][j];
+                    boxSumArray[4] += sudokuMatrix[i][j];
                 }
                 if ((i >= 3 && i <= 5) && (j >= 6 && j <= 8)) {
-                    boxSumArray[5] += sMatrix[i][j];
+                    boxSumArray[5] += sudokuMatrix[i][j];
 
                 }
                 if ((i >= 6) && (j <= 2)) {
-                    boxSumArray[6] += sMatrix[i][j];
+                    boxSumArray[6] += sudokuMatrix[i][j];
                 }
                 if ((i >= 6) && (j >= 3 && j <= 5)) {
-                    boxSumArray[7] += sMatrix[i][j];
+                    boxSumArray[7] += sudokuMatrix[i][j];
                 }
                 if ((i >= 6) && (j >= 6)) {
-                    boxSumArray[8] += sMatrix[i][j];
+                    boxSumArray[8] += sudokuMatrix[i][j];
                 }
             }
         }
