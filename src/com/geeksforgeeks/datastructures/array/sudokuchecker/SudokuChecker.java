@@ -66,7 +66,7 @@ public class SudokuChecker {
         boolean sudukoStatus = true;
 
         while (i < 9) {
-            if (rSumArray[i] != 45 && cSumArray[i] != 45 && rSumArray[i] != 45) {
+            if (rSumArray[i] != 45 && cSumArray[i] != 45 && boxSumArray[i] != 45) {
                 sudukoStatus = false;
                 break;
             }
