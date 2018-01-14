@@ -11,6 +11,7 @@ import java.util.Scanner;
  */
 public class SumTwoLinkedLists {
     Node head;
+    int carry = 0;
 
     class Node {
         int data;
@@ -56,17 +57,17 @@ public class SumTwoLinkedLists {
         return size;
     }
 
-    private Node addSameSize(Node head1, Node head2, int carry) {
+    private Node addSameSize(Node head1, Node head2) {
         if (head1 == null) {
             return null;
         }
         int sum = 0;
         Node result = new Node(carry);
-        result.next = addSameSize(head1.next, head2.next, carry);
-        sum = head1.data + head2.data;
+        result.next = addSameSize(head1.next, head2.next);
+        sum = carry + head1.data + head2.data;
         carry = sum / 10;
         sum = sum % 10;
-        result.data = sum;
+        result.data += sum;
         return result;
     }
 
@@ -101,9 +102,8 @@ public class SumTwoLinkedLists {
             head = head1;
             return;
         }
-        int carry = 0;
         if (size1 == size2) {
-            head = addSameSize(head1, head2, carry);
+            head = addSameSize(head1, head2);
         } else {
             int diff = Math.abs(size1 - size2);
             if (size1 < size2) {
@@ -115,7 +115,7 @@ public class SumTwoLinkedLists {
             while (diff-- > 0) {
                 curr = curr.next;
             }
-            head = addSameSize(curr, head2, carry);
+            head = addSameSize(curr, head2);
             head = addCarryToRemaining(head1, curr, carry, head);
         }
         if (carry != 0) {

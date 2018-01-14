@@ -2,6 +2,7 @@ package com.geeksforgeeks.datastructures.linkedlist.deletennodesaftermnodes;
 
 /**
  * Created by Abhijeet on 14/10/16.
+ * https://www.geeksforgeeks.org/delete-n-nodes-after-m-nodes-of-a-linked-list/
  */
 
 import java.util.Scanner;
