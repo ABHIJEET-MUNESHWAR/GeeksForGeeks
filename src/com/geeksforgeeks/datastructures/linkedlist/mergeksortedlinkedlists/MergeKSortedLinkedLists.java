@@ -80,13 +80,21 @@ public class MergeKSortedLinkedLists {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter number of test cases: ");
         int t = sc.nextInt();
+        System.out.println();
         while (t-- > 0) {
+            System.out.print("Enter total number of linked lists: ");
             int k = sc.nextInt();
+            System.out.println();
             MergeKSortedLinkedLists[] sortLinkedList = new MergeKSortedLinkedLists[k];
             MergeKSortedLinkedLists merge = new MergeKSortedLinkedLists();
             for (int j = 0; j < k; j++) {
+                System.out.print("Enter linked list size: ");
                 int n = sc.nextInt();
+                System.out.println();
+                System.out.println("Enter linked list elements:");
+                sortLinkedList[j] = new MergeKSortedLinkedLists();
                 for (int i = 0; i < n; i++) {
                     sortLinkedList[j].push(sc.nextInt());
                 }
