@@ -80,3 +80,86 @@ public class MergeLinkedList {
         list2.printList();
     }
 }
+/*
+public class LinkedList {
+
+  Node head;
+  int p=1;
+
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    LinkedList list1 = new LinkedList();
+    LinkedList list2 = new LinkedList();
+    LinkedList list3 = new LinkedList();
+    int size1 = sc.nextInt();
+    for (int i = 0; i < size1; i++) {
+      list1.push(sc.nextInt());
+    }
+    int size2 = sc.nextInt();
+    for (int i = 0; i < size2; i++) {
+      list2.push(sc.nextInt());
+    }
+    list3.head = list3.mergeAlternate(list1.head, list2.head);
+    System.out.println("Linked list after merging is:");
+    list3.printList();
+  }
+
+  private void push(int data) {
+    Node node = new Node(data);
+    if (head == null) {
+      head = node;
+    } else {
+      Node curr = head;
+      while (curr.next != null) {
+        curr = curr.next;
+      }
+      curr.next = node;
+    }
+  }
+
+  private void printList() {
+    if (head == null) {
+      return;
+    }
+    Node curr = head;
+    while (curr != null) {
+      System.out.print(curr.data + " ");
+      curr = curr.next;
+    }
+    System.out.println();
+  }
+
+  private Node mergeAlternate(Node a, Node b) {
+    if (a == null) {
+      return b;
+    }
+    if (b == null) {
+      return a;
+    }
+    Node result = null;
+    if (p == 1) {
+      p = 0;
+      result = a;
+      result.next = mergeAlternate(a.next, b);
+    } else {
+      p = 1;
+      result = b;
+      result.next = mergeAlternate(a, b.next);
+    }
+    return result;
+  }
+
+  class Node {
+
+    int data;
+    Node next;
+
+    Node(int data) {
+      this.data = data;
+      this.next = null;
+    }
+  }
+
+}
+
+ */
