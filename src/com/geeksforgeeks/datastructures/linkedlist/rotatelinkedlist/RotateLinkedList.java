@@ -75,7 +75,7 @@ public class RotateLinkedList {
         System.out.println("Linked list before rotating:");
         rll.printList();
         rll.rotateLinkedList();
-        System.out.println("Linked list before rotating:");
+        System.out.println("Linked list after rotating:");
         rll.printList();
     }
 }
