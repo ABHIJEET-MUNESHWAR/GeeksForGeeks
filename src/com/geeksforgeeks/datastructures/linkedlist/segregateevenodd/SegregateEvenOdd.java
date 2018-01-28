@@ -2,6 +2,7 @@ package com.geeksforgeeks.datastructures.linkedlist.segregateevenodd;
 
 /**
  * Created by Abhijeet on 30/09/16.
+ * https://www.geeksforgeeks.org/segregate-even-and-odd-elements-in-a-linked-list/
  */
 
 import java.util.*;
