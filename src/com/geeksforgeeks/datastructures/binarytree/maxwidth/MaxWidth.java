@@ -5,6 +5,7 @@ package com.geeksforgeeks.datastructures.binarytree.maxwidth;
  * User: Abhijeet
  * Date: 20/11/16
  * Time: 11:55 AM
+ * https://www.geeksforgeeks.org/maximum-width-of-a-binary-tree/
  */
 class Node {
     int data;
