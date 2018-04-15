@@ -16,8 +16,6 @@ import java.util.Map;
  * <b>IDeserve <br>
  * <a href="https://www.youtube.com/c/IDeserve">https://www.youtube.com/c/IDeserve</a>
  * Implement Least Recently Used (LRU) cache
- *
- * @author Saurabh
  */
 public class LRUCache {
 
