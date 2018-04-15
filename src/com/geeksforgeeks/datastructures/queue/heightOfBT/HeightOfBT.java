@@ -57,6 +57,6 @@ public class HeightOfBT {
         tree.root.right = new Node(3);
         tree.root.left.left = new Node(4);
         tree.root.left.right = new Node(5);
-        System.out.println("The height os binary tree is: " + tree.heightOfBT(tree.root));
+        System.out.println("The height of binary tree is: " + tree.heightOfBT(tree.root));
     }
 }
