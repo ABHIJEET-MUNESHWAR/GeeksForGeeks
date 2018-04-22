@@ -69,6 +69,7 @@ public class RotOranges {
                 if ((isValidCell(orange.x - 1, orange.y)) && (input[orange.x - 1][orange.y] == 1)) {
                     if (!isRotten) {
                         isRotten = true;
+                        time++;
                     }
                     input[orange.x - 1][orange.y] = 2;
                     orange.x--;
@@ -78,6 +79,7 @@ public class RotOranges {
                 if ((isValidCell(orange.x, orange.y + 1)) && (input[orange.x][orange.y + 1] == 1)) {
                     if (!isRotten) {
                         isRotten = true;
+                        time++;
                     }
                     input[orange.x][orange.y + 1] = 2;
                     orange.y++;
@@ -87,6 +89,7 @@ public class RotOranges {
                 if ((isValidCell(orange.x, orange.y - 1)) && (input[orange.x][orange.y - 1] == 1)) {
                     if (!isRotten) {
                         isRotten = true;
+                        time++;
                     }
                     input[orange.x][orange.y - 1] = 1;
                     orange.y--;
