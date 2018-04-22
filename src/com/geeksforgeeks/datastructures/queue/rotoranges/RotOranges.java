@@ -42,7 +42,7 @@ public class RotOranges {
     }
 
     private int countDaysToRotOranges(int[][] input) {
-        LinkedList<Oranges> queue = new LinkedList<Oranges>();
+        Queue<Oranges> queue = new LinkedList<Oranges>();
         int time = 0;
         for (int i = 0; i < R; i++) {
             for (int j = 0; j < C; j++) {

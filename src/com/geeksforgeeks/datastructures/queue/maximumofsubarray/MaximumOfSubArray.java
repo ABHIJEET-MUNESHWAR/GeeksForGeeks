@@ -29,6 +29,7 @@ public class MaximumOfSubArray {
             while ((!deque.isEmpty()) && (input[i] >= input[deque.peekLast()])) {
                 deque.removeLast();
             }
+            deque.addLast(input[i]);
         }
         System.out.println(deque.peekFirst());
     }
