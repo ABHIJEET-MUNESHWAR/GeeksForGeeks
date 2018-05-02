@@ -55,7 +55,7 @@ public class BinaryTree {
         tree.root.left.left = new Node(3);
         tree.root.left.right = new Node(9);
         tree.root.left.left.left = new Node(1);
-        tree.root.left.right.left = new Node(1);
+        tree.root.left.right.left = new Node(2);
         if (tree.check(tree.root))
             System.out.println("Leaves are at same level");
         else
