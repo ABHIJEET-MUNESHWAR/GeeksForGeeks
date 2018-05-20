@@ -35,6 +35,10 @@ public class BinaryTree {
     tree.root.right.left = new Node(6);
     tree.root.right.right = new Node(7);
     tree.preOrderWithTwoStacks(tree.root);
+    tree.preOrderWithOneStacks(tree.root);
+  }
+
+  private void preOrderWithOneStacks(Node root) {
   }
 
   private void preOrderWithTwoStacks(Node root) {
