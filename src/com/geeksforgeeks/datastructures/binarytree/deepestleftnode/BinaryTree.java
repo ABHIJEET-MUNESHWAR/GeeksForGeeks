@@ -67,7 +67,7 @@ public class BinaryTree {
         tree.root.right.right = new Node(6);
         tree.root.right.left.right = new Node(7);
         tree.root.right.right.right = new Node(8);
-//        tree.root.right.left.right.left = new Node(9);
+        tree.root.right.left.right.left = new Node(9);
         tree.root.right.right.right.right = new Node(10);
 
         tree.deepestLeftLeaf(tree.root);
