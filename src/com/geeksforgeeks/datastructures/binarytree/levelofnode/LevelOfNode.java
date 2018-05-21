@@ -44,6 +44,6 @@ public class LevelOfNode {
         tree.root.left.left = new Node(1);
         tree.root.left.right = new Node(4);
         System.out.println("The level of node 1 is: ");
-        tree.getLevelOfNode(tree.root, 10, 0);
+        tree.getLevelOfNode(tree.root, 1, 1);
     }
 }
