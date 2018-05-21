@@ -35,10 +35,34 @@ public class BinaryTree {
     tree.root.right.left = new Node(6);
     tree.root.right.right = new Node(7);
     tree.preOrderWithTwoStacks(tree.root);
+    System.out.println();
     tree.preOrderWithOneStacks(tree.root);
   }
 
   private void preOrderWithOneStacks(Node root) {
+    if (root == null) {
+      return;
+    }
+    Stack<Node> stack = new Stack<>();
+    Node current = root;
+    while ((current != null) || (!stack.isEmpty())) {
+      if (current != null) {
+        stack.push(current);
+        current = current.left;
+      } else {
+        Node temp = stack.peek().right;
+        if (temp == null) {
+          temp = stack.pop();
+          System.out.println(temp.data);
+          while (!stack.isEmpty() && temp == stack.peek().right) {
+            temp = stack.pop();
+            System.out.println(temp.data);
+          }
+        } else {
+          current = temp;
+        }
+      }
+    }
   }
 
   private void preOrderWithTwoStacks(Node root) {
