@@ -32,7 +32,7 @@ public class BinaryTree {
         if ((node.data < min) || (node.data > max)) {
             return false;
         }
-        return ((isBSTUtil(node.left, min, node.data - 1)) && (isBSTUtil(node.right, node.data, max)));
+        return ((isBSTUtil(node.left, min, node.data - 1)) && (isBSTUtil(node.right, node.data+1, max)));
     }
 
     /* Driver program to test above functions */
@@ -47,6 +47,6 @@ public class BinaryTree {
         if (tree.isBST())
             System.out.println("IS BST");
         else
-            System.out.println("Not pairsum BST");
+            System.out.println("Not BST");
     }
 }
