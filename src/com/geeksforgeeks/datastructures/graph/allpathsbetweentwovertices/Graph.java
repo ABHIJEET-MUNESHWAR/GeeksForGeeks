@@ -1,5 +1,6 @@
 package com.geeksforgeeks.datastructures.graph.allpathsbetweentwovertices;
 
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -53,8 +54,9 @@ public class Graph {
       pathCount++;
     } else {
       for (Integer i : adjList[source]) {
-        if (!visited[i]) {
-          countPathsUtil(i, destination, visited, pathCount);
+        int s2 = i;
+        if (!visited[s2]) {
+          pathCount = countPathsUtil(s2, destination, visited, pathCount);
         }
       }
     }
