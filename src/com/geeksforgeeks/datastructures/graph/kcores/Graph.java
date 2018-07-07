@@ -7,6 +7,7 @@ import java.util.LinkedList;
  * Author:  abhijeetashokmuneshwar,
  * Date:    01/07/18,
  * Time:    5:01 PM
+ * https://www.geeksforgeeks.org/find-k-cores-graph/
  */
 public class Graph {
 
