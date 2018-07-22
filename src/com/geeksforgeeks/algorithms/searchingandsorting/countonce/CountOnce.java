@@ -36,7 +36,7 @@ class CountOnes {
         CountOnes ob = new CountOnes();
         int arr[] = {1, 1, 1, 1, 0, 0, 0};
         int n = arr.length;
-        System.out.println("Count of 1's in given array is " +
+        System.out.println("Graph of 1's in given array is " +
                 ob.countOnes(arr, 0, n - 1));
     }
 }

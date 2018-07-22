@@ -1,6 +1,5 @@
-package com.geeksforgeeks.datastructures.graph.allpathsbetweentwovertices;
+package com.geeksforgeeks.datastructures.graph.allpathsbetweentwovertices.count;
 
-import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 

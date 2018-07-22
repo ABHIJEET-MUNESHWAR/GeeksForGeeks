@@ -15,7 +15,7 @@ public class CanPairs {
             return false;
         }
         int[] frequencyMap = new int[10000];
-        // Count occurrences of all remainders
+        // Graph occurrences of all remainders
         for (int i = 0; i < size; i++) {
             frequencyMap[input[i] % k]++;
         }
