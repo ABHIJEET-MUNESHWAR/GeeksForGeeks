@@ -1,22 +1,24 @@
 {
-  "totalSolved": 1,
+  "totalSolved": 2,
   "currentStreak": 1,
   "maxStreak": 1,
   "lastSyncDate": "2026-07-21",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 0,
-    "medium": 1,
+    "medium": 2,
     "hard": 0,
     "basic": 0
   },
   "syncedProblems": {
-    "GeeksForGeeks_Detect_Cycle_using_DSU": true
+    "GeeksForGeeks_Detect_Cycle_using_DSU": true,
+    "LeetCode_Satisfiability_of_Equality_Equations": true
   },
   "activityHistory": {
-    "2026-07-21": 1
+    "2026-07-21": 2
   },
   "todayProblems": [
-    "Detect Cycle using DSU"
+    "Detect Cycle using DSU",
+    "Satisfiability of Equality Equations"
   ]
 }
