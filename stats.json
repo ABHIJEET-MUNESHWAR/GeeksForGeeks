@@ -1,0 +1,22 @@
+{
+  "totalSolved": 1,
+  "currentStreak": 1,
+  "maxStreak": 1,
+  "lastSyncDate": "2026-07-21",
+  "todayCount": 1,
+  "difficultyCounts": {
+    "easy": 0,
+    "medium": 1,
+    "hard": 0,
+    "basic": 0
+  },
+  "syncedProblems": {
+    "GeeksForGeeks_Detect_Cycle_using_DSU": true
+  },
+  "activityHistory": {
+    "2026-07-21": 1
+  },
+  "todayProblems": [
+    "Detect Cycle using DSU"
+  ]
+}
