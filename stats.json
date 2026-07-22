@@ -1,26 +1,26 @@
 {
-  "totalSolved": 3,
-  "currentStreak": 1,
-  "maxStreak": 1,
-  "lastSyncDate": "2026-07-21",
-  "todayCount": 3,
+  "totalSolved": 4,
+  "currentStreak": 2,
+  "maxStreak": 2,
+  "lastSyncDate": "2026-07-22",
+  "todayCount": 1,
   "difficultyCounts": {
     "easy": 0,
-    "medium": 3,
+    "medium": 4,
     "hard": 0,
     "basic": 0
   },
   "syncedProblems": {
     "GeeksForGeeks_Detect_Cycle_using_DSU": true,
     "LeetCode_Satisfiability_of_Equality_Equations": true,
-    "GeeksForGeeks_Dijkstra_Algorithm": true
+    "GeeksForGeeks_Dijkstra_Algorithm": true,
+    "LeetCode_Network_Delay_Time": true
   },
   "activityHistory": {
-    "2026-07-21": 3
+    "2026-07-21": 3,
+    "2026-07-22": 1
   },
   "todayProblems": [
-    "Detect Cycle using DSU",
-    "Satisfiability of Equality Equations",
-    "Dijkstra Algorithm"
+    "Network Delay Time"
   ]
 }
