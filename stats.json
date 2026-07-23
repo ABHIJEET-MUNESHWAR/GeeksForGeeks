@@ -1,12 +1,12 @@
 {
-  "totalSolved": 4,
-  "currentStreak": 2,
-  "maxStreak": 2,
-  "lastSyncDate": "2026-07-22",
+  "totalSolved": 5,
+  "currentStreak": 3,
+  "maxStreak": 3,
+  "lastSyncDate": "2026-07-23",
   "todayCount": 1,
   "difficultyCounts": {
     "easy": 0,
-    "medium": 4,
+    "medium": 5,
     "hard": 0,
     "basic": 0
   },
@@ -14,13 +14,15 @@
     "GeeksForGeeks_Detect_Cycle_using_DSU": true,
     "LeetCode_Satisfiability_of_Equality_Equations": true,
     "GeeksForGeeks_Dijkstra_Algorithm": true,
-    "LeetCode_Network_Delay_Time": true
+    "LeetCode_Network_Delay_Time": true,
+    "LeetCode_Rotting_Oranges": true
   },
   "activityHistory": {
     "2026-07-21": 3,
-    "2026-07-22": 1
+    "2026-07-22": 1,
+    "2026-07-23": 1
   },
   "todayProblems": [
-    "Network Delay Time"
+    "Rotting Oranges"
   ]
 }
