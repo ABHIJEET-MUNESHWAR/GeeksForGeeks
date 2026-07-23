@@ -5,3 +5,4 @@
 | 3 | [Dijkstra Algorithm](./GeeksForGeeks/Medium/Dijkstra%20Algorithm) | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1) | Medium | 21 Jul 2026 | 11:18 pm |
 | 4 | [Network Delay Time](./LeetCode/Medium/Network%20Delay%20Time) | [LeetCode](https://leetcode.com/problems/network-delay-time/) | Medium | 22 Jul 2026 | 09:32 pm |
 | 5 | [Rotting Oranges](./LeetCode/Medium/Rotting%20Oranges) | [LeetCode](https://leetcode.com/problems/rotting-oranges/) | Medium | 23 Jul 2026 | 07:56 pm |
+| 6 | [Number of Provinces](./LeetCode/Medium/Number%20of%20Provinces) | [LeetCode](https://leetcode.com/problems/number-of-provinces/) | Medium | 23 Jul 2026 | 08:37 pm |

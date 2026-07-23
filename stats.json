@@ -1,12 +1,12 @@
 {
-  "totalSolved": 5,
+  "totalSolved": 6,
   "currentStreak": 3,
   "maxStreak": 3,
   "lastSyncDate": "2026-07-23",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 0,
-    "medium": 5,
+    "medium": 6,
     "hard": 0,
     "basic": 0
   },
@@ -15,14 +15,16 @@
     "LeetCode_Satisfiability_of_Equality_Equations": true,
     "GeeksForGeeks_Dijkstra_Algorithm": true,
     "LeetCode_Network_Delay_Time": true,
-    "LeetCode_Rotting_Oranges": true
+    "LeetCode_Rotting_Oranges": true,
+    "LeetCode_Number_of_Provinces": true
   },
   "activityHistory": {
     "2026-07-21": 3,
     "2026-07-22": 1,
-    "2026-07-23": 1
+    "2026-07-23": 2
   },
   "todayProblems": [
-    "Rotting Oranges"
+    "Rotting Oranges",
+    "Number of Provinces"
   ]
 }
