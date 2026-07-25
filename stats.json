@@ -1,12 +1,12 @@
 {
-  "totalSolved": 6,
-  "currentStreak": 3,
+  "totalSolved": 7,
+  "currentStreak": 1,
   "maxStreak": 3,
-  "lastSyncDate": "2026-07-23",
-  "todayCount": 2,
+  "lastSyncDate": "2026-07-25",
+  "todayCount": 1,
   "difficultyCounts": {
     "easy": 0,
-    "medium": 6,
+    "medium": 7,
     "hard": 0,
     "basic": 0
   },
@@ -16,15 +16,16 @@
     "GeeksForGeeks_Dijkstra_Algorithm": true,
     "LeetCode_Network_Delay_Time": true,
     "LeetCode_Rotting_Oranges": true,
-    "LeetCode_Number_of_Provinces": true
+    "LeetCode_Number_of_Provinces": true,
+    "LeetCode_Map_of_Highest_Peak": true
   },
   "activityHistory": {
     "2026-07-21": 3,
     "2026-07-22": 1,
-    "2026-07-23": 2
+    "2026-07-23": 2,
+    "2026-07-25": 1
   },
   "todayProblems": [
-    "Rotting Oranges",
-    "Number of Provinces"
+    "Map of Highest Peak"
   ]
 }
