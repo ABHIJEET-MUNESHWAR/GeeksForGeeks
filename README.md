@@ -7,3 +7,4 @@
 | 5 | [Rotting Oranges](./LeetCode/Medium/Rotting%20Oranges) | [LeetCode](https://leetcode.com/problems/rotting-oranges/) | Medium | 23 Jul 2026 | 07:56 pm |
 | 6 | [Number of Provinces](./LeetCode/Medium/Number%20of%20Provinces) | [LeetCode](https://leetcode.com/problems/number-of-provinces/) | Medium | 23 Jul 2026 | 08:37 pm |
 | 7 | [Map of Highest Peak](./LeetCode/Medium/Map%20of%20Highest%20Peak) | [LeetCode](https://leetcode.com/problems/map-of-highest-peak/) | Medium | 25 Jul 2026 | 01:51 pm |
+| 8 | [Maximum Product of Two Elements in an Array](./LeetCode/Easy/Maximum%20Product%20of%20Two%20Elements%20in%20an%20Array) | [LeetCode](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | Easy | 27 Jul 2026 | 08:40 pm |
