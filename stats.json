@@ -1,12 +1,12 @@
 {
-  "totalSolved": 9,
-  "currentStreak": 2,
+  "totalSolved": 10,
+  "currentStreak": 3,
   "maxStreak": 3,
-  "lastSyncDate": "2026-07-28",
+  "lastSyncDate": "2026-07-29",
   "todayCount": 1,
   "difficultyCounts": {
     "easy": 1,
-    "medium": 8,
+    "medium": 9,
     "hard": 0,
     "basic": 0
   },
@@ -19,7 +19,8 @@
     "LeetCode_Number_of_Provinces": true,
     "LeetCode_Map_of_Highest_Peak": true,
     "LeetCode_Maximum_Product_of_Two_Elements_in_an_Array": true,
-    "LeetCode_Smallest_Palindromic_Rearrangement_I": true
+    "LeetCode_Smallest_Palindromic_Rearrangement_I": true,
+    "LeetCode_Letter_Combinations_of_a_Phone_Number": true
   },
   "activityHistory": {
     "2026-07-21": 3,
@@ -27,9 +28,10 @@
     "2026-07-23": 2,
     "2026-07-25": 1,
     "2026-07-27": 1,
-    "2026-07-28": 1
+    "2026-07-28": 1,
+    "2026-07-29": 1
   },
   "todayProblems": [
-    "Smallest Palindromic Rearrangement I"
+    "Letter Combinations of a Phone Number"
   ]
 }
