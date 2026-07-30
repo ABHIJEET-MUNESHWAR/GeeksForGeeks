@@ -1,34 +1,37 @@
 class Solution {
     public boolean validPath(int n, int[][] edges, int source, int destination) {
-
-    boolean[] visited = new boolean[n];
-    HashSet<Integer>[] graph = new HashSet[n];
-    for (int i = 0; i < n; i++) {
-      graph[i] = new HashSet<>();
-    }
-    for (int[] edge : edges) {
-      graph[edge[0]].add(edge[1]);
-      graph[edge[1]].add(edge[0]);
-    }
-    if (graph[source].contains(destination)) {
-      return true;
-    }
-    Queue<Integer> queue = new PriorityQueue<>();
-    visited[source] = true;
-    queue.add(source);
-    int current;
-    while (!queue.isEmpty()) {
-      current = queue.poll();
-      if (current == destination) {
-        return true;
-      }
-      for (int neighbour : graph[current]) {
-        if (!visited[neighbour]) {
-          visited[neighbour] = true;
-          queue.add(neighbour);
+        // Create Adjacency List
+        List<List<Integer>> adjacencyList = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            adjacencyList.add(new ArrayList<>());
         }
-      }
+        // Fill values
+        for (int i = 0; i < edges.length; i++) {
+            int u = edges[i][0];
+            int v = edges[i][1];
+            adjacencyList.get(u).add(v);
+            adjacencyList.get(v).add(u);
+        }
+        boolean[] isVisited = new boolean[n];
+        return dfs(adjacencyList, source, destination, isVisited);
     }
-    return false;        
+
+    private boolean dfs(List<List<Integer>> adjacencyList, int currentNode, int destination,
+            boolean[] isVisited) {
+        isVisited[currentNode] = true;
+        if (currentNode == destination) {
+            return true;
+        }
+        // Visit all neighbours of current node
+        for (Integer neighbor : adjacencyList.get(currentNode)) {
+            if (!isVisited[neighbor]) {
+                isVisited[neighbor] = true;
+                boolean isFound = dfs(adjacencyList, neighbor, destination, isVisited);
+                if (isFound) {
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }
