@@ -10,3 +10,4 @@
 | 8 | [Maximum Product of Two Elements in an Array](./LeetCode/Easy/Maximum%20Product%20of%20Two%20Elements%20in%20an%20Array) | [LeetCode](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | Easy | 27 Jul 2026 | 08:40 pm |
 | 9 | [Smallest Palindromic Rearrangement I](./LeetCode/Medium/Smallest%20Palindromic%20Rearrangement%20I) | [LeetCode](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/) | Medium | 28 Jul 2026 | 09:39 pm |
 | 10 | [Letter Combinations of a Phone Number](./LeetCode/Medium/Letter%20Combinations%20of%20a%20Phone%20Number) | [LeetCode](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | Medium | 29 Jul 2026 | 09:36 pm |
+| 11 | [Minimum Number of Pushes to Type Word I](./LeetCode/Easy/Minimum%20Number%20of%20Pushes%20to%20Type%20Word%20I) | [LeetCode](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) | Easy | 30 Jul 2026 | 11:42 am |
