@@ -1,6 +1,6 @@
 # 📝 2421. Number of Good Paths (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/number-of-good-paths/solutions/)
+🔗 [Problem Link](https://leetcode.com/problems/number-of-good-paths/solutions/2621772/c-java-diagram-union-find-by-kiranpalsin-dn9g/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Hard-red) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
