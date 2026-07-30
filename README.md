@@ -14,3 +14,4 @@
 | 12 | [Cheapest Flights Within K Stops](./LeetCode/Medium/Cheapest%20Flights%20Within%20K%20Stops) | [LeetCode](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | Medium | 30 Jul 2026 | 12:21 pm |
 | 13 | [Bus Routes](./LeetCode/Hard/Bus%20Routes) | [LeetCode](https://leetcode.com/problems/bus-routes/) | Hard | 30 Jul 2026 | 01:16 pm |
 | 14 | [Pacific Atlantic Water Flow](./LeetCode/Medium/Pacific%20Atlantic%20Water%20Flow) | [LeetCode](https://leetcode.com/problems/pacific-atlantic-water-flow/) | Medium | 30 Jul 2026 | 03:10 pm |
+| 15 | [Word Search](./LeetCode/Medium/Word%20Search) | [LeetCode](https://leetcode.com/problems/word-search/) | Medium | 30 Jul 2026 | 04:07 pm |
