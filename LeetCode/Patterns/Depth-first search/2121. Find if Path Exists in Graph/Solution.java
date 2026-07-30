@@ -1,31 +1,34 @@
 class Solution {
     public boolean validPath(int n, int[][] edges, int source, int destination) {
-        Map<Integer, List<Integer>> adj = new HashMap<>();
-        for (int[] edge : edges) {
-            int u = edge[0];
-            int v = edge[1];
-            adj.computeIfAbsent(u, key -> new ArrayList<>()).add(v);
-            adj.computeIfAbsent(v, key -> new ArrayList<>()).add(u);
-        }
-        boolean[] isVisited = new boolean[n];
-        if (dfs(adj, source, destination, isVisited)) {
-            return true;
-        }
-        return false;
-    }
 
-    public boolean dfs(Map<Integer, List<Integer>> adj, int u, int destination, boolean[] isVisited) {
-        if (u == destination) {
-            return true;
+    boolean[] visited = new boolean[n];
+    HashSet<Integer>[] graph = new HashSet[n];
+    for (int i = 0; i < n; i++) {
+      graph[i] = new HashSet<>();
+    }
+    for (int[] edge : edges) {
+      graph[edge[0]].add(edge[1]);
+      graph[edge[1]].add(edge[0]);
+    }
+    if (graph[source].contains(destination)) {
+      return true;
+    }
+    Queue<Integer> queue = new PriorityQueue<>();
+    visited[source] = true;
+    queue.add(source);
+    int current;
+    while (!queue.isEmpty()) {
+      current = queue.poll();
+      if (current == destination) {
+        return true;
+      }
+      for (int neighbour : graph[current]) {
+        if (!visited[neighbour]) {
+          visited[neighbour] = true;
+          queue.add(neighbour);
         }
-        if (!isVisited[u]) {
-            isVisited[u] = true;
-        }
-        for (Integer v : adj.getOrDefault(u, new ArrayList<>())) {
-            if (!isVisited[v] && dfs(adj, v, destination, isVisited)) {
-                return true;
-            }
-        }
-        return false;
+      }
+    }
+    return false;        
     }
 }
