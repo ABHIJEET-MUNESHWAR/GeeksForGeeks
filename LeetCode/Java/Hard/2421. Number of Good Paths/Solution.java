@@ -1,84 +1,49 @@
-public int numberOfGoodPaths(int[] vals, int[][] edges) {
-    int N = vals.length;
-    ArrayList<Integer>[] adj = new ArrayList[N];
-    TreeMap<Integer, ArrayList<Integer>> sameValues = new TreeMap<>();
-    int ans = 0;
-    
-    for(int i=0; i<N; i++) {
-        adj[i] = new ArrayList<>();
-        
-        if(!sameValues.containsKey(vals[i])) sameValues.put(vals[i], new ArrayList<>());
-        sameValues.get(vals[i]).add(i);
+class Solution {
+    int[] parent, count; // parent array to keep track of parent of each node and count array to keep track of number of nodes in each set
+    int res; // variable to store the number of good paths
+
+    public int numberOfGoodPaths(int[] vals, int[][] edges) {
+        // sort edges based on the maximum value of the nodes in the edge
+        Arrays.sort(edges,
+                (o1, o2) -> Integer.compare(Math.max(vals[o1[0]], vals[o1[1]]), Math.max(vals[o2[0]], vals[o2[1]])));
+        int n = vals.length;
+        res = n; // initialize number of good paths to be equal to number of nodes
+        parent = new int[n];
+        count = new int[n];
+
+        Arrays.fill(count, 1); // initialize count of nodes in each set to be 1
+
+        for (int i = 0; i < n; i++)
+            parent[i] = i; // initialize parent of each node to be itself
+        for (int[] edge : edges) {
+            union(edge[0], edge[1], vals);
+        }
+        return res;
     }
-    
-    for(int[] e : edges) {
-        int u = e[0];
-        int v = e[1];
-        
-        if(vals[u] >= vals[v]) {
-            adj[u].add(v);
+
+    // function to merge two sets
+    private void union(int x, int y, int[] vals) {
+        int parx = find(x);
+        int pary = find(y);
+        if (parx == pary)
+            return; // if x and y are already in the same set, return
+        if (vals[parx] == vals[pary]) {
+            // if the values of the parents of x and y are equal, update number of good paths
+            res += count[parx] * count[pary];
+            count[parx] += count[pary];
+            parent[pary] = parx;
+        } else if (vals[parx] > vals[pary]) {
+            parent[pary] = parx;
         } else {
-            adj[v].add(u);
+            parent[parx] = pary;
         }
     }
-    
-    UF uf = new UF(N);
-    
-    for(int val : sameValues.entrySet()) {
-        for(int u : sameValues.get(val)) {
-            for(int v : adj[u]) {
-                uf.union(u, v);
-            }
-        }
-        
-        HashMap<Integer, Integer> group = new HashMap<>();
-        
-        for(int u : sameValues.get(val)) {
-            group.put(uf.find(u), group.getOrDefault(uf.find(u), 0) + 1);
-        }
-        
-        ans += sameValues.get(val).size();
-        
-        for(int key : group.keySet()) {
-            int size = group.get(key);
-            ans += size * (size-1) / 2;
-        }
-    }
-    
-    return ans;
-    
-}
 
-class UF {
+    // function to find the parent of a node
+    private int find(int x) {
+        if (parent[x] == x)
+            return x;
 
-    int[] parent;
-
-    public UF(int len) {
-        parent = new int[len];
-        Arrays.fill(parent, -1);
-    }
-
-    public int find(int a) {
-        if(parent[a] >= 0) {
-            return parent[a] = find(parent[a]);    
-        }
-        return a;
-    }
-
-    public boolean union(int a, int b) {
-        int pa = find(a);
-        int pb = find(b);
-
-        if(pa == pb) return false;
-
-        if(parent[pa] <= parent[pb]) {
-            parent[pa] += parent[pb];
-            parent[pb] = pa;
-        } else {
-            parent[pb] += parent[pa];
-            parent[pa] = pb;
-        }
-        
-        return true;
+        return parent[x] = find(parent[x]);
     }
 }
