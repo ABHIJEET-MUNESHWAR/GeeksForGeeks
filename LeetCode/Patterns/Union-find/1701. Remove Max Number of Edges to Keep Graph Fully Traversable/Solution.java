@@ -1,15 +1,14 @@
 class Solution {
-
     class DSU {
-        private int[] parent;
-        private int[] rank;
-        private int components;
+        int[] parent;
+        int[] rank;
+        int components;
 
         public DSU(int n) {
             parent = new int[n + 1];
             rank = new int[n + 1];
             components = n;
-            for (int i = 1; i <= n; i++) {
+            for (int i = 0; i <= n; i++) {
                 parent[i] = i;
             }
         }
@@ -35,7 +34,7 @@ class Solution {
                 parent[parentOfI] = parentOfJ;
                 rank[parentOfJ]++;
             }
-            components--;
+            this.components--;
         }
 
         public boolean isSingleComponent() {
@@ -44,40 +43,44 @@ class Solution {
     }
 
     public int maxNumEdgesToRemove(int n, int[][] edges) {
-        Arrays.sort(edges, (v1, v2) -> v2[0] - v1[0]);
-        DSU aliceDsu = new DSU(n);
-        DSU bobDsu = new DSU(n);
+        DSU aliceDSU = new DSU(n);
+        DSU bobDSU = new DSU(n);
         int addedEdges = 0;
+        Arrays.sort(edges, (a, b) -> (b[0] - a[0]));
         for (int[] edge : edges) {
             int type = edge[0];
             int u = edge[1];
             int v = edge[2];
-            if (type == 3) {
-                boolean isAdded = false;
-                if (aliceDsu.find(u) != aliceDsu.find(v)) {
-                    aliceDsu.union(u, v);
-                    isAdded = true;
-                }
-                if (bobDsu.find(u) != bobDsu.find(v)) {
-                    bobDsu.union(u, v);
-                    isAdded = true;
-                }
-                if (isAdded) {
-                    addedEdges++;
-                }
-            } else if (type == 2) {
-                if (bobDsu.find(u) != bobDsu.find(v)) {
-                    bobDsu.union(u, v);
-                    addedEdges++;
-                }
-            } else if (type == 1) {
-                if (aliceDsu.find(u) != aliceDsu.find(v)) {
-                    aliceDsu.union(u, v);
-                    addedEdges++;
-                }
+            switch (type) {
+                case 3:
+                    boolean isAdded = false;
+                    if (aliceDSU.find(u) != aliceDSU.find(v)) {
+                        aliceDSU.union(u, v);
+                        isAdded = true;
+                    }
+                    if (bobDSU.find(u) != bobDSU.find(v)) {
+                        bobDSU.union(u, v);
+                        isAdded = true;
+                    }
+                    if (isAdded) {
+                        addedEdges++;
+                    }
+                    break;
+                case 2:
+                    if (bobDSU.find(u) != bobDSU.find(v)) {
+                        bobDSU.union(u, v);
+                        addedEdges++;
+                    }
+                    break;
+                case 1:
+                    if (aliceDSU.find(u) != aliceDSU.find(v)) {
+                        aliceDSU.union(u, v);
+                        addedEdges++;
+                    }
+                    break;
             }
         }
-        if (aliceDsu.isSingleComponent() && bobDsu.isSingleComponent()) {
+        if (bobDSU.isSingleComponent() && aliceDSU.isSingleComponent()) {
             return edges.length - addedEdges;
         }
         return -1;
