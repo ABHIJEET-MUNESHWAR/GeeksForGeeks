@@ -8,8 +8,8 @@
 Array, String, Backtracking, Depth-First Search, Matrix
 
 ### 🚀 Performance
-- **Runtime:** 148 ms
-- **Memory:** 43.2 MB
+- **Runtime:** 146 ms
+- **Memory:** 41.4 MB
 
 ---
 
