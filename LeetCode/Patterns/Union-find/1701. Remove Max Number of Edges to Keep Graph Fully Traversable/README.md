@@ -8,8 +8,8 @@
 Union-Find, Graph Theory
 
 ### 🚀 Performance
-- **Runtime:** 30 ms
-- **Memory:** 88.9 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 
