@@ -4,34 +4,20 @@ class Solution {
     public List<List<Integer>> pacificAtlantic(int[][] heights) {
         int m = heights.length;
         int n = heights[0].length;
-        boolean[][] pacificBoolean = new boolean[m][n];
-        boolean[][] atlanticBoolean = new boolean[m][n];
+        boolean[][] pacificVisited = new boolean[m][n];
+        boolean[][] atlanticVisited = new boolean[m][n];
         for (int i = 0; i < m; i++) {
-            pacificBoolean[i][0] = true;
-            atlanticBoolean[i][n - 1] = true;
+            pacificAtlanticDFS(heights, pacificVisited, i, 0, Integer.MIN_VALUE);
+            pacificAtlanticDFS(heights, atlanticVisited, i, n - 1, Integer.MIN_VALUE);
         }
         for (int j = 0; j < n; j++) {
-            pacificBoolean[0][j] = true;
-            atlanticBoolean[m - 1][j] = true;
-        }
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                if (pacificBoolean[i][j]) {
-                    pacificAtlanticDFS(heights, pacificBoolean, i, j);
-                }
-            }
-        }
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                if (atlanticBoolean[i][j]) {
-                    pacificAtlanticDFS(heights, atlanticBoolean, i, j);
-                }
-            }
+            pacificAtlanticDFS(heights, pacificVisited, 0, j, Integer.MIN_VALUE);
+            pacificAtlanticDFS(heights, atlanticVisited, m - 1, j, Integer.MIN_VALUE);
         }
         List<List<Integer>> resultList = new ArrayList<>();
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                if (pacificBoolean[i][j] && atlanticBoolean[i][j]) {
+                if (pacificVisited[i][j] && atlanticVisited[i][j]) {
                     resultList.add(Arrays.asList(i, j));
                 }
             }
@@ -39,16 +25,17 @@ class Solution {
         return resultList;
     }
 
-    public void pacificAtlanticDFS(int[][] heights, boolean[][] oceanBoolean, int i, int j) {
+    public void pacificAtlanticDFS(int[][] heights, boolean[][] oceanVisited, int i, int j, int prevHeight) {
         int m = heights.length;
         int n = heights[0].length;
+        if (i < 0 || j < 0 || i >= m || j >= n || oceanVisited[i][j] || prevHeight > heights[i][j]) {
+            return;
+        }
+        oceanVisited[i][j] = true;
         for (int[] direction : directions) {
             int i_ = i + direction[0];
             int j_ = j + direction[1];
-            if (i_ >= 0 && i_ < m && j_ >= 0 && j_ < n && !oceanBoolean[i_][j_] && heights[i_][j_] >= heights[i][j]) {
-                oceanBoolean[i_][j_] = true;
-                pacificAtlanticDFS(heights, oceanBoolean, i_, j_);
-            }
+            pacificAtlanticDFS(heights, oceanVisited, i_, j_, heights[i][j]);
         }
     }
 }
