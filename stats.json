@@ -1,13 +1,13 @@
 {
-  "totalSolved": 17,
+  "totalSolved": 18,
   "currentStreak": 4,
   "maxStreak": 4,
   "lastSyncDate": "2026-07-30",
-  "todayCount": 7,
+  "todayCount": 8,
   "difficultyCounts": {
     "easy": 3,
     "medium": 13,
-    "hard": 1,
+    "hard": 2,
     "basic": 0
   },
   "syncedProblems": {
@@ -27,7 +27,8 @@
     "LeetCode_Pacific_Atlantic_Water_Flow": true,
     "LeetCode_Word_Search": true,
     "LeetCode_Find_if_Path_Exists_in_Graph": true,
-    "LeetCode_Minimum_Time_to_Collect_All_Apples_in_a_Tree": true
+    "LeetCode_Minimum_Time_to_Collect_All_Apples_in_a_Tree": true,
+    "LeetCode_Number_of_Good_Paths": true
   },
   "activityHistory": {
     "2026-07-21": 3,
@@ -37,7 +38,7 @@
     "2026-07-27": 1,
     "2026-07-28": 1,
     "2026-07-29": 1,
-    "2026-07-30": 7
+    "2026-07-30": 8
   },
   "todayProblems": [
     "Minimum Number of Pushes to Type Word I",
@@ -46,6 +47,7 @@
     "Pacific Atlantic Water Flow",
     "Word Search",
     "Find if Path Exists in Graph",
-    "Minimum Time to Collect All Apples in a Tree"
+    "Minimum Time to Collect All Apples in a Tree",
+    "Number of Good Paths"
   ]
 }

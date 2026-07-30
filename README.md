@@ -17,3 +17,4 @@
 | 15 | [Word Search](./LeetCode/Medium/Word%20Search) | [LeetCode](https://leetcode.com/problems/word-search/) | Medium | 30 Jul 2026 | 04:07 pm |
 | 16 | [Find if Path Exists in Graph](./LeetCode/Easy/Find%20if%20Path%20Exists%20in%20Graph) | [LeetCode](https://leetcode.com/problems/find-if-path-exists-in-graph/) | Easy | 30 Jul 2026 | 04:32 pm |
 | 17 | [Minimum Time to Collect All Apples in a Tree](./LeetCode/Medium/Minimum%20Time%20to%20Collect%20All%20Apples%20in%20a%20Tree) | [LeetCode](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/) | Medium | 30 Jul 2026 | 05:53 pm |
+| 18 | [Number of Good Paths](./LeetCode/Hard/Number%20of%20Good%20Paths) | [LeetCode](https://leetcode.com/problems/number-of-good-paths/) | Hard | 30 Jul 2026 | 08:14 pm |
