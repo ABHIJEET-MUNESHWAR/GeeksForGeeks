@@ -1,32 +1,43 @@
 class Solution {
     public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
-        int[] minDistances = new int[n];
-        Arrays.fill(minDistances, Integer.MAX_VALUE);
+        if (src == dst) {
+            return 0;
+        }
         Map<Integer, List<int[]>> adj = new HashMap<>();
         for (int[] flight : flights) {
-            int from = flight[0], to = flight[1], cost = flight[2];
-            adj.computeIfAbsent(from, key -> new ArrayList<>()).add(new int[] { to, cost });
+            int from = flight[0];
+            int to = flight[1];
+            int price = flight[2];
+            adj.computeIfAbsent(from, key -> new ArrayList<>()).add(new int[] { to, price });
         }
+        return findCheapestPrice(n, adj, src, dst, k);
+    }
+
+    public int findCheapestPrice(int n, Map<Integer, List<int[]>> adj, int src, int dst, int k) {
+        int[] minPriceDistance = new int[n];
+        Arrays.fill(minPriceDistance, Integer.MAX_VALUE);
+        minPriceDistance[src] = 0;
         Queue<int[]> queue = new LinkedList<>();
-        queue.add(new int[] { src, 0 });
-        minDistances[src] = 0;
-        int level = 0;
-        while (!queue.isEmpty() && level <= k) {
-            int size = queue.size();
-            for (int i = 0; i < size; i++) {
-                int[] currentNode = queue.poll();
-                int u = currentNode[0], d = currentNode[1];
-                List<int[]> neighbors = adj.getOrDefault(u, Collections.emptyList());
-                for (int[] neighbor : neighbors) {
-                    int to = neighbor[0], cost = neighbor[1];
-                    if (minDistances[to] > (cost + d)) {
-                        minDistances[to] = cost + d;
-                        queue.add(new int[] { to, d + cost });
+        queue.add(new int[] { 0, src });
+        k++;
+        while (!queue.isEmpty() && k > 0) {
+            int queueSize = queue.size();
+            while (queueSize-- > 0) {
+                int[] current = queue.poll();
+                int currentPrice = current[0];
+                int currentNode = current[1];
+                List<int[]> neighbours = adj.getOrDefault(currentNode, Collections.emptyList());
+                for (int[] neighbour : neighbours) {
+                    int dstNode = neighbour[0];
+                    int dstPrice = neighbour[1];
+                    if (minPriceDistance[dstNode] > (currentPrice + dstPrice)) {
+                        minPriceDistance[dstNode] = (currentPrice + dstPrice);
+                        queue.add(new int[] { currentPrice + dstPrice, dstNode });
                     }
                 }
             }
-            level++;
+            k--;
         }
-        return minDistances[dst] == Integer.MAX_VALUE ? -1 : minDistances[dst];
+        return minPriceDistance[dst] == Integer.MAX_VALUE ? -1 : minPriceDistance[dst];
     }
 }
