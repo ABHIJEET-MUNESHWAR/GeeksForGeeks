@@ -1,12 +1,12 @@
 {
-  "totalSolved": 13,
+  "totalSolved": 14,
   "currentStreak": 4,
   "maxStreak": 4,
   "lastSyncDate": "2026-07-30",
-  "todayCount": 3,
+  "todayCount": 4,
   "difficultyCounts": {
     "easy": 2,
-    "medium": 10,
+    "medium": 11,
     "hard": 1,
     "basic": 0
   },
@@ -23,7 +23,8 @@
     "LeetCode_Letter_Combinations_of_a_Phone_Number": true,
     "LeetCode_Minimum_Number_of_Pushes_to_Type_Word_I": true,
     "LeetCode_Cheapest_Flights_Within_K_Stops": true,
-    "LeetCode_Bus_Routes": true
+    "LeetCode_Bus_Routes": true,
+    "LeetCode_Pacific_Atlantic_Water_Flow": true
   },
   "activityHistory": {
     "2026-07-21": 3,
@@ -33,11 +34,12 @@
     "2026-07-27": 1,
     "2026-07-28": 1,
     "2026-07-29": 1,
-    "2026-07-30": 3
+    "2026-07-30": 4
   },
   "todayProblems": [
     "Minimum Number of Pushes to Type Word I",
     "Cheapest Flights Within K Stops",
-    "Bus Routes"
+    "Bus Routes",
+    "Pacific Atlantic Water Flow"
   ]
 }
