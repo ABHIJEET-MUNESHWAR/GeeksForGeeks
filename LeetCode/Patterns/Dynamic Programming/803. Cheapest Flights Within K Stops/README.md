@@ -8,8 +8,8 @@
 Dynamic Programming, Depth-First Search, Breadth-First Search, Graph Theory, Heap (Priority Queue), Shortest Path
 
 ### 🚀 Performance
-- **Runtime:** 7 ms
-- **Memory:** 44.2 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 
