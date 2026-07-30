@@ -7,24 +7,21 @@ class Solution {
             adj.computeIfAbsent(u, key -> new ArrayList<>()).add(v);
             adj.computeIfAbsent(v, key -> new ArrayList<>()).add(u);
         }
-        return bfs(n, adj, source, destination);
+        boolean[] isVisited = new boolean[n];
+        if (dfs(adj, source, destination, isVisited)) {
+            return true;
+        }
+        return false;
     }
 
-    public boolean bfs(int n, Map<Integer, List<Integer>> adj, int source, int destination) {
-        boolean[] isVisited = new boolean[n];
-        isVisited[source] = true;
-        Queue<Integer> queue = new LinkedList<>();
-        queue.offer(source);
-        while (!queue.isEmpty()) {
-            int u = queue.poll();
-            isVisited[u] = true;
-            if (u == destination) {
+    public boolean dfs(Map<Integer, List<Integer>> adj, int u, int destination, boolean[] isVisited) {
+        if (u == destination) {
+            return true;
+        }
+        isVisited[u] = true;
+        for (Integer v : adj.getOrDefault(u, new ArrayList<>())) {
+            if (!isVisited[v] && dfs(adj, v, destination, isVisited)) {
                 return true;
-            }
-            for (int v : adj.getOrDefault(u, new ArrayList<>())) {
-                if (!isVisited[v]) {
-                    queue.offer(v);
-                }
             }
         }
         return false;
