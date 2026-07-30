@@ -11,3 +11,4 @@
 | 9 | [Smallest Palindromic Rearrangement I](./LeetCode/Medium/Smallest%20Palindromic%20Rearrangement%20I) | [LeetCode](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/) | Medium | 28 Jul 2026 | 09:39 pm |
 | 10 | [Letter Combinations of a Phone Number](./LeetCode/Medium/Letter%20Combinations%20of%20a%20Phone%20Number) | [LeetCode](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | Medium | 29 Jul 2026 | 09:36 pm |
 | 11 | [Minimum Number of Pushes to Type Word I](./LeetCode/Easy/Minimum%20Number%20of%20Pushes%20to%20Type%20Word%20I) | [LeetCode](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) | Easy | 30 Jul 2026 | 11:42 am |
+| 12 | [Cheapest Flights Within K Stops](./LeetCode/Medium/Cheapest%20Flights%20Within%20K%20Stops) | [LeetCode](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | Medium | 30 Jul 2026 | 12:21 pm |
