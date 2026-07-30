@@ -18,7 +18,9 @@ class Solution {
         if (u == destination) {
             return true;
         }
-        isVisited[u] = true;
+        if (!isVisited[u]) {
+            isVisited[u] = true;
+        }
         for (Integer v : adj.getOrDefault(u, new ArrayList<>())) {
             if (!isVisited[v] && dfs(adj, v, destination, isVisited)) {
                 return true;
