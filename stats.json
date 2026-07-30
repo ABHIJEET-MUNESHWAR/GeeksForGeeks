@@ -1,11 +1,11 @@
 {
-  "totalSolved": 15,
+  "totalSolved": 16,
   "currentStreak": 4,
   "maxStreak": 4,
   "lastSyncDate": "2026-07-30",
-  "todayCount": 5,
+  "todayCount": 6,
   "difficultyCounts": {
-    "easy": 2,
+    "easy": 3,
     "medium": 12,
     "hard": 1,
     "basic": 0
@@ -25,7 +25,8 @@
     "LeetCode_Cheapest_Flights_Within_K_Stops": true,
     "LeetCode_Bus_Routes": true,
     "LeetCode_Pacific_Atlantic_Water_Flow": true,
-    "LeetCode_Word_Search": true
+    "LeetCode_Word_Search": true,
+    "LeetCode_Find_if_Path_Exists_in_Graph": true
   },
   "activityHistory": {
     "2026-07-21": 3,
@@ -35,13 +36,14 @@
     "2026-07-27": 1,
     "2026-07-28": 1,
     "2026-07-29": 1,
-    "2026-07-30": 5
+    "2026-07-30": 6
   },
   "todayProblems": [
     "Minimum Number of Pushes to Type Word I",
     "Cheapest Flights Within K Stops",
     "Bus Routes",
     "Pacific Atlantic Water Flow",
-    "Word Search"
+    "Word Search",
+    "Find if Path Exists in Graph"
   ]
 }

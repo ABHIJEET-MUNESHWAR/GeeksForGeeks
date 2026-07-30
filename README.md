@@ -15,3 +15,4 @@
 | 13 | [Bus Routes](./LeetCode/Hard/Bus%20Routes) | [LeetCode](https://leetcode.com/problems/bus-routes/) | Hard | 30 Jul 2026 | 01:16 pm |
 | 14 | [Pacific Atlantic Water Flow](./LeetCode/Medium/Pacific%20Atlantic%20Water%20Flow) | [LeetCode](https://leetcode.com/problems/pacific-atlantic-water-flow/) | Medium | 30 Jul 2026 | 03:10 pm |
 | 15 | [Word Search](./LeetCode/Medium/Word%20Search) | [LeetCode](https://leetcode.com/problems/word-search/) | Medium | 30 Jul 2026 | 04:07 pm |
+| 16 | [Find if Path Exists in Graph](./LeetCode/Easy/Find%20if%20Path%20Exists%20in%20Graph) | [LeetCode](https://leetcode.com/problems/find-if-path-exists-in-graph/) | Easy | 30 Jul 2026 | 04:32 pm |
