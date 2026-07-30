@@ -8,8 +8,8 @@
 Array, Hash Table, Breadth-First Search
 
 ### 🚀 Performance
-- **Runtime:** 321 ms
-- **Memory:** 73.9 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 
