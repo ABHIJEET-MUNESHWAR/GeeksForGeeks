@@ -8,8 +8,8 @@
 Depth-First Search, Breadth-First Search, Union-Find, Graph Theory
 
 ### 🚀 Performance
-- **Runtime:** 267 ms
-- **Memory:** 311.8 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 
