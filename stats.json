@@ -1,12 +1,12 @@
 {
-  "totalSolved": 16,
+  "totalSolved": 17,
   "currentStreak": 4,
   "maxStreak": 4,
   "lastSyncDate": "2026-07-30",
-  "todayCount": 6,
+  "todayCount": 7,
   "difficultyCounts": {
     "easy": 3,
-    "medium": 12,
+    "medium": 13,
     "hard": 1,
     "basic": 0
   },
@@ -26,7 +26,8 @@
     "LeetCode_Bus_Routes": true,
     "LeetCode_Pacific_Atlantic_Water_Flow": true,
     "LeetCode_Word_Search": true,
-    "LeetCode_Find_if_Path_Exists_in_Graph": true
+    "LeetCode_Find_if_Path_Exists_in_Graph": true,
+    "LeetCode_Minimum_Time_to_Collect_All_Apples_in_a_Tree": true
   },
   "activityHistory": {
     "2026-07-21": 3,
@@ -36,7 +37,7 @@
     "2026-07-27": 1,
     "2026-07-28": 1,
     "2026-07-29": 1,
-    "2026-07-30": 6
+    "2026-07-30": 7
   },
   "todayProblems": [
     "Minimum Number of Pushes to Type Word I",
@@ -44,6 +45,7 @@
     "Bus Routes",
     "Pacific Atlantic Water Flow",
     "Word Search",
-    "Find if Path Exists in Graph"
+    "Find if Path Exists in Graph",
+    "Minimum Time to Collect All Apples in a Tree"
   ]
 }
