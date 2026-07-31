@@ -1,12 +1,12 @@
 {
-  "totalSolved": 22,
+  "totalSolved": 23,
   "currentStreak": 5,
   "maxStreak": 5,
   "lastSyncDate": "2026-07-31",
-  "todayCount": 4,
+  "todayCount": 5,
   "difficultyCounts": {
     "easy": 3,
-    "medium": 15,
+    "medium": 16,
     "hard": 4,
     "basic": 0
   },
@@ -32,7 +32,8 @@
     "LeetCode_Shortest_Path_in_Binary_Matrix": true,
     "LeetCode_Minimum_Number_of_Pushes_to_Type_Word_II": true,
     "LeetCode_Find_Edges_in_Shortest_Paths": true,
-    "LeetCode_Minimum_Time_to_Visit_a_Cell_In_a_Grid": true
+    "LeetCode_Minimum_Time_to_Visit_a_Cell_In_a_Grid": true,
+    "LeetCode_Maximum_Number_of_Fish_in_a_Grid": true
   },
   "activityHistory": {
     "2026-07-21": 3,
@@ -43,12 +44,13 @@
     "2026-07-28": 1,
     "2026-07-29": 1,
     "2026-07-30": 8,
-    "2026-07-31": 4
+    "2026-07-31": 5
   },
   "todayProblems": [
     "Shortest Path in Binary Matrix",
     "Minimum Number of Pushes to Type Word II",
     "Find Edges in Shortest Paths",
-    "Minimum Time to Visit a Cell In a Grid"
+    "Minimum Time to Visit a Cell In a Grid",
+    "Maximum Number of Fish in a Grid"
   ]
 }
