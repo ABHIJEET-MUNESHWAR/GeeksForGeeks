@@ -17,8 +17,11 @@ class Solution {
             int u = edge[0];
             int v = edge[1];
             int weight = edge[2];
-            if (((sourceMinDistance[u] + weight + destinationMinDistance[v]) == sourceMinDistance[n - 1])
-                    || ((sourceMinDistance[v] + weight + destinationMinDistance[u]) == sourceMinDistance[n - 1])) {
+            boolean direction1 = sourceMinDistance[u] != Long.MAX_VALUE && destinationMinDistance[v] != Long.MAX_VALUE
+                    && ((sourceMinDistance[u] + weight + destinationMinDistance[v]) == sourceMinDistance[n - 1]);
+            boolean direction2 = sourceMinDistance[v] != Long.MAX_VALUE && destinationMinDistance[u] != Long.MAX_VALUE
+                    && ((sourceMinDistance[v] + weight + destinationMinDistance[u]) == sourceMinDistance[n - 1]);
+            if (direction1 || direction2) {
                 answer[i] = true;
             }
         }
