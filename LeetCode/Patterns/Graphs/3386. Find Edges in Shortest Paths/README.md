@@ -8,8 +8,8 @@
 Depth-First Search, Breadth-First Search, Graph Theory, Heap (Priority Queue), Shortest Path
 
 ### 🚀 Performance
-- **Runtime:** 161 ms
-- **Memory:** 195.2 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 
