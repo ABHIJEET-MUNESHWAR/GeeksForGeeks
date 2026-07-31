@@ -1,12 +1,12 @@
 {
-  "totalSolved": 18,
-  "currentStreak": 4,
-  "maxStreak": 4,
-  "lastSyncDate": "2026-07-30",
-  "todayCount": 8,
+  "totalSolved": 19,
+  "currentStreak": 5,
+  "maxStreak": 5,
+  "lastSyncDate": "2026-07-31",
+  "todayCount": 1,
   "difficultyCounts": {
     "easy": 3,
-    "medium": 13,
+    "medium": 14,
     "hard": 2,
     "basic": 0
   },
@@ -28,7 +28,8 @@
     "LeetCode_Word_Search": true,
     "LeetCode_Find_if_Path_Exists_in_Graph": true,
     "LeetCode_Minimum_Time_to_Collect_All_Apples_in_a_Tree": true,
-    "LeetCode_Number_of_Good_Paths": true
+    "LeetCode_Number_of_Good_Paths": true,
+    "LeetCode_Shortest_Path_in_Binary_Matrix": true
   },
   "activityHistory": {
     "2026-07-21": 3,
@@ -38,16 +39,10 @@
     "2026-07-27": 1,
     "2026-07-28": 1,
     "2026-07-29": 1,
-    "2026-07-30": 8
+    "2026-07-30": 8,
+    "2026-07-31": 1
   },
   "todayProblems": [
-    "Minimum Number of Pushes to Type Word I",
-    "Cheapest Flights Within K Stops",
-    "Bus Routes",
-    "Pacific Atlantic Water Flow",
-    "Word Search",
-    "Find if Path Exists in Graph",
-    "Minimum Time to Collect All Apples in a Tree",
-    "Number of Good Paths"
+    "Shortest Path in Binary Matrix"
   ]
 }
