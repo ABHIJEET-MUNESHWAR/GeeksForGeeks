@@ -23,3 +23,4 @@
 | 21 | [Find Edges in Shortest Paths](./LeetCode/Hard/Find%20Edges%20in%20Shortest%20Paths) | [LeetCode](https://leetcode.com/problems/find-edges-in-shortest-paths/) | Hard | 31 Jul 2026 | 12:52 pm |
 | 22 | [Minimum Time to Visit a Cell In a Grid](./LeetCode/Hard/Minimum%20Time%20to%20Visit%20a%20Cell%20In%20a%20Grid) | [LeetCode](https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid/) | Hard | 31 Jul 2026 | 05:13 pm |
 | 23 | [Maximum Number of Fish in a Grid](./LeetCode/Medium/Maximum%20Number%20of%20Fish%20in%20a%20Grid) | [LeetCode](https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/) | Medium | 31 Jul 2026 | 06:01 pm |
+| 24 | [Detect Cycles in 2D Grid](./LeetCode/Medium/Detect%20Cycles%20in%202D%20Grid) | [LeetCode](https://leetcode.com/problems/detect-cycles-in-2d-grid/) | Medium | 31 Jul 2026 | 07:17 pm |
