@@ -3,7 +3,7 @@
 Track your progress on the Grind 75 coding interview preparation list.
 
 ## Progress
-- **Completed:** 2 / 75 (2.7%)
+- **Completed:** 3 / 75 (4.0%)
 
 ---
 
@@ -42,7 +42,7 @@ Track your progress on the Grind 75 coding interview preparation list.
 - [ ] Jump Game
 
 ### 📂 Graph
-- [ ] Clone Graph
+- [x] [Clone Graph](./Java/Medium/133. Clone Graph/)
 - [ ] Course Schedule
 - [x] [Pacific Atlantic Water Flow](./Java/Medium/417. Pacific Atlantic Water Flow/)
 - [ ] Number of Islands
