@@ -1,5 +1,4 @@
 class Solution {
-
     public int find(int i, int[] parent) {
         if (i == parent[i]) {
             return i;
@@ -27,9 +26,9 @@ class Solution {
         int n = stones.length;
         int[] parent = new int[n];
         int[] rank = new int[n];
+        int totalGroups = 0;
         for (int i = 0; i < n; i++) {
             parent[i] = i;
-            rank[i] = 1;
         }
         for (int i = 0; i < n; i++) {
             for (int j = i + 1; j < n; j++) {
@@ -38,7 +37,6 @@ class Solution {
                 }
             }
         }
-        int totalGroups = 0;
         for (int i = 0; i < n; i++) {
             if (parent[i] == i) {
                 totalGroups++;
