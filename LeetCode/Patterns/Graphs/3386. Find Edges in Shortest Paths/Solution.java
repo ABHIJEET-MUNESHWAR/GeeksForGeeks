@@ -9,8 +9,8 @@ class Solution {
             adjacencyMap.computeIfAbsent(u, key -> new ArrayList<>()).add(new int[] { v, weight });
             adjacencyMap.computeIfAbsent(v, key -> new ArrayList<>()).add(new int[] { u, weight });
         }
-        int[] sourceMinDistance = dijkstra(n, adjacencyMap, 0);
-        int[] destinationMinDistance = dijkstra(n, adjacencyMap, n - 1);
+        long[] sourceMinDistance = dijkstra(n, adjacencyMap, 0);
+        long[] destinationMinDistance = dijkstra(n, adjacencyMap, n - 1);
         boolean[] answer = new boolean[totalEdges];
         for (int i = 0; i < totalEdges; i++) {
             int[] edge = edges[i];
@@ -25,16 +25,16 @@ class Solution {
         return answer;
     }
 
-    public int[] dijkstra(int n, Map<Integer, List<int[]>> adjacencyMap, int source) {
-        int[] minDistance = new int[n];
-        Arrays.fill(minDistance, Integer.MAX_VALUE);
+    public long[] dijkstra(int n, Map<Integer, List<int[]>> adjacencyMap, int source) {
+        long[] minDistance = new long[n];
+        Arrays.fill(minDistance, Long.MAX_VALUE);
         minDistance[source] = 0;
-        PriorityQueue<int[]> minHeap = new PriorityQueue<>((a, b) -> a[0] - b[0]);
-        minHeap.offer(new int[] { 0, source });
+        PriorityQueue<long[]> minHeap = new PriorityQueue<>(Comparator.comparingLong(a -> a[0]));
+        minHeap.offer(new long[] { 0, source });
         while (!minHeap.isEmpty()) {
-            int[] current = minHeap.poll();
-            int currentWeight = current[0];
-            int currentNode = current[1];
+            long[] current = minHeap.poll();
+            long currentWeight = current[0];
+            int currentNode = (int) current[1];
             if (currentWeight > minDistance[currentNode]) {
                 continue;
             }
@@ -43,7 +43,7 @@ class Solution {
                 int nextWeight = v[1];
                 if (minDistance[nextNode] > (minDistance[currentNode] + nextWeight)) {
                     minDistance[nextNode] = (minDistance[currentNode] + nextWeight);
-                    minHeap.offer(new int[] { minDistance[nextNode], nextNode });
+                    minHeap.offer(new long[] { minDistance[nextNode], nextNode });
                 }
             }
         }
