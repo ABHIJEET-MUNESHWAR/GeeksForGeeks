@@ -1,13 +1,13 @@
 {
-  "totalSolved": 20,
+  "totalSolved": 21,
   "currentStreak": 5,
   "maxStreak": 5,
   "lastSyncDate": "2026-07-31",
-  "todayCount": 2,
+  "todayCount": 3,
   "difficultyCounts": {
     "easy": 3,
     "medium": 15,
-    "hard": 2,
+    "hard": 3,
     "basic": 0
   },
   "syncedProblems": {
@@ -30,7 +30,8 @@
     "LeetCode_Minimum_Time_to_Collect_All_Apples_in_a_Tree": true,
     "LeetCode_Number_of_Good_Paths": true,
     "LeetCode_Shortest_Path_in_Binary_Matrix": true,
-    "LeetCode_Minimum_Number_of_Pushes_to_Type_Word_II": true
+    "LeetCode_Minimum_Number_of_Pushes_to_Type_Word_II": true,
+    "LeetCode_Find_Edges_in_Shortest_Paths": true
   },
   "activityHistory": {
     "2026-07-21": 3,
@@ -41,10 +42,11 @@
     "2026-07-28": 1,
     "2026-07-29": 1,
     "2026-07-30": 8,
-    "2026-07-31": 2
+    "2026-07-31": 3
   },
   "todayProblems": [
     "Shortest Path in Binary Matrix",
-    "Minimum Number of Pushes to Type Word II"
+    "Minimum Number of Pushes to Type Word II",
+    "Find Edges in Shortest Paths"
   ]
 }
