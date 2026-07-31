@@ -19,3 +19,4 @@
 | 17 | [Minimum Time to Collect All Apples in a Tree](./LeetCode/Medium/Minimum%20Time%20to%20Collect%20All%20Apples%20in%20a%20Tree) | [LeetCode](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/) | Medium | 30 Jul 2026 | 05:53 pm |
 | 18 | [Number of Good Paths](./LeetCode/Hard/Number%20of%20Good%20Paths) | [LeetCode](https://leetcode.com/problems/number-of-good-paths/) | Hard | 30 Jul 2026 | 08:14 pm |
 | 19 | [Shortest Path in Binary Matrix](./LeetCode/Medium/Shortest%20Path%20in%20Binary%20Matrix) | [LeetCode](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | Medium | 31 Jul 2026 | 11:19 am |
+| 20 | [Minimum Number of Pushes to Type Word II](./LeetCode/Medium/Minimum%20Number%20of%20Pushes%20to%20Type%20Word%20II) | [LeetCode](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/) | Medium | 31 Jul 2026 | 12:06 pm |

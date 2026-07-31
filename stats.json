@@ -1,12 +1,12 @@
 {
-  "totalSolved": 19,
+  "totalSolved": 20,
   "currentStreak": 5,
   "maxStreak": 5,
   "lastSyncDate": "2026-07-31",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 3,
-    "medium": 14,
+    "medium": 15,
     "hard": 2,
     "basic": 0
   },
@@ -29,7 +29,8 @@
     "LeetCode_Find_if_Path_Exists_in_Graph": true,
     "LeetCode_Minimum_Time_to_Collect_All_Apples_in_a_Tree": true,
     "LeetCode_Number_of_Good_Paths": true,
-    "LeetCode_Shortest_Path_in_Binary_Matrix": true
+    "LeetCode_Shortest_Path_in_Binary_Matrix": true,
+    "LeetCode_Minimum_Number_of_Pushes_to_Type_Word_II": true
   },
   "activityHistory": {
     "2026-07-21": 3,
@@ -40,9 +41,10 @@
     "2026-07-28": 1,
     "2026-07-29": 1,
     "2026-07-30": 8,
-    "2026-07-31": 1
+    "2026-07-31": 2
   },
   "todayProblems": [
-    "Shortest Path in Binary Matrix"
+    "Shortest Path in Binary Matrix",
+    "Minimum Number of Pushes to Type Word II"
   ]
 }
