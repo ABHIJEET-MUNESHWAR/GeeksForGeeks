@@ -21,3 +21,4 @@
 | 19 | [Shortest Path in Binary Matrix](./LeetCode/Medium/Shortest%20Path%20in%20Binary%20Matrix) | [LeetCode](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | Medium | 31 Jul 2026 | 11:19 am |
 | 20 | [Minimum Number of Pushes to Type Word II](./LeetCode/Medium/Minimum%20Number%20of%20Pushes%20to%20Type%20Word%20II) | [LeetCode](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/) | Medium | 31 Jul 2026 | 12:06 pm |
 | 21 | [Find Edges in Shortest Paths](./LeetCode/Hard/Find%20Edges%20in%20Shortest%20Paths) | [LeetCode](https://leetcode.com/problems/find-edges-in-shortest-paths/) | Hard | 31 Jul 2026 | 12:52 pm |
+| 22 | [Minimum Time to Visit a Cell In a Grid](./LeetCode/Hard/Minimum%20Time%20to%20Visit%20a%20Cell%20In%20a%20Grid) | [LeetCode](https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid/) | Hard | 31 Jul 2026 | 05:13 pm |
