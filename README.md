@@ -29,3 +29,4 @@
 | 27 | [Palindrome Partitioning](./LeetCode/Medium/Palindrome%20Partitioning) | [LeetCode](https://leetcode.com/problems/palindrome-partitioning/) | Medium | 01 Aug 2026 | 07:24 pm |
 | 28 | [Predict the Winner](./LeetCode/Medium/Predict%20the%20Winner) | [LeetCode](https://leetcode.com/problems/predict-the-winner/) | Medium | 01 Aug 2026 | 08:12 pm |
 | 29 | [Fair Distribution of Cookies](./LeetCode/Medium/Fair%20Distribution%20of%20Cookies) | [LeetCode](https://leetcode.com/problems/fair-distribution-of-cookies/) | Medium | 01 Aug 2026 | 09:37 pm |
+| 30 | [Maximum Number of Achievable Transfer Requests](./LeetCode/Hard/Maximum%20Number%20of%20Achievable%20Transfer%20Requests) | [LeetCode](https://leetcode.com/problems/maximum-number-of-achievable-transfer-requests/) | Hard | 01 Aug 2026 | 10:23 pm |
