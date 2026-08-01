@@ -1,27 +1,27 @@
 class Solution {
-    int minFairness = Integer.MAX_VALUE;
+
+    int result = Integer.MAX_VALUE;
 
     public int distributeCookies(int[] cookies, int k) {
-        int[] distributedCookies = new int[k];
-        backtrack(cookies, k, distributedCookies, 0);
-        return minFairness;
+        int[] children = new int[k];
+        solve(cookies, children, k, 0);
+        return result;
     }
 
-    public void backtrack(int[] cookies, int k, int[] distributedCookies, int index) {
-        int n = cookies.length;
-        if (index >= n) {
-            int maxUnfairness = Integer.MIN_VALUE;
-            for (int distributedCookie : distributedCookies) {
-                maxUnfairness = Math.max(maxUnfairness, distributedCookie);
+    private void solve(int[] cookies, int[] children, int k, int start) {
+        if (start >= cookies.length) {
+            int unfairness = Integer.MIN_VALUE;
+            for (int i = 0; i < k; i++) {
+                unfairness = Math.max(unfairness, children[i]);
             }
-            minFairness = Math.min(minFairness, maxUnfairness);
+            result = Math.min(unfairness, result);
             return;
         }
-        int cookie = cookies[index];
+        int cookie = cookies[start];
         for (int i = 0; i < k; i++) {
-            distributedCookies[i] += cookie;
-            backtrack(cookies, k, distributedCookies, index + 1);
-            distributedCookies[i] -= cookie;
+            children[i] += cookie;
+            solve(cookies, children, k, start + 1);
+            children[i] -= cookie;
         }
     }
 }
