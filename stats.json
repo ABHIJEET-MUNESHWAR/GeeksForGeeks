@@ -1,12 +1,12 @@
 {
-  "totalSolved": 27,
+  "totalSolved": 28,
   "currentStreak": 6,
   "maxStreak": 6,
   "lastSyncDate": "2026-08-01",
-  "todayCount": 3,
+  "todayCount": 4,
   "difficultyCounts": {
     "easy": 3,
-    "medium": 19,
+    "medium": 20,
     "hard": 5,
     "basic": 0
   },
@@ -37,7 +37,8 @@
     "LeetCode_Detect_Cycles_in_2D_Grid": true,
     "LeetCode_Unique_Paths_III": true,
     "LeetCode_Non-decreasing_Subsequences": true,
-    "LeetCode_Palindrome_Partitioning": true
+    "LeetCode_Palindrome_Partitioning": true,
+    "LeetCode_Predict_the_Winner": true
   },
   "activityHistory": {
     "2026-07-21": 3,
@@ -49,11 +50,12 @@
     "2026-07-29": 1,
     "2026-07-30": 8,
     "2026-07-31": 6,
-    "2026-08-01": 3
+    "2026-08-01": 4
   },
   "todayProblems": [
     "Unique Paths III",
     "Non-decreasing Subsequences",
-    "Palindrome Partitioning"
+    "Palindrome Partitioning",
+    "Predict the Winner"
   ]
 }

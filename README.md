@@ -27,3 +27,4 @@
 | 25 | [Unique Paths III](./LeetCode/Hard/Unique%20Paths%20III) | [LeetCode](https://leetcode.com/problems/unique-paths-iii/) | Hard | 01 Aug 2026 | 04:44 pm |
 | 26 | [Non-decreasing Subsequences](./LeetCode/Medium/Non-decreasing%20Subsequences) | [LeetCode](https://leetcode.com/problems/non-decreasing-subsequences/) | Medium | 01 Aug 2026 | 06:42 pm |
 | 27 | [Palindrome Partitioning](./LeetCode/Medium/Palindrome%20Partitioning) | [LeetCode](https://leetcode.com/problems/palindrome-partitioning/) | Medium | 01 Aug 2026 | 07:24 pm |
+| 28 | [Predict the Winner](./LeetCode/Medium/Predict%20the%20Winner) | [LeetCode](https://leetcode.com/problems/predict-the-winner/) | Medium | 01 Aug 2026 | 08:12 pm |
