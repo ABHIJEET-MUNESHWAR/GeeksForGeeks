@@ -1,5 +1,5 @@
 class Solution {
-    int result = Integer.MIN_VALUE;
+    int result = 0;
 
     public int maximumRequests(int n, int[][] requests) {
         int[] resultant = new int[n];
@@ -9,7 +9,7 @@ class Solution {
 
     public void backtrack(int n, int[][] requests, int[] resultant, int index, int count) {
         int m = requests.length;
-        if (index >= n) {
+        if (index >= m) {
             boolean allZero = true;
             for (int r : resultant) {
                 if (r != 0) {
