@@ -8,8 +8,8 @@
 Array, Hash Table, Backtracking, Bit Manipulation
 
 ### 🚀 Performance
-- **Runtime:** 6 ms
-- **Memory:** 51.1 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 
