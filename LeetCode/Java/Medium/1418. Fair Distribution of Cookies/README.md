@@ -8,7 +8,7 @@
 Array, Dynamic Programming, Backtracking, Bit Manipulation, Bitmask
 
 ### 🚀 Performance
-- **Runtime:** 430 ms
+- **Runtime:** 365 ms
 - **Memory:** 43 MB
 
 ---
