@@ -26,3 +26,4 @@
 | 24 | [Detect Cycles in 2D Grid](./LeetCode/Medium/Detect%20Cycles%20in%202D%20Grid) | [LeetCode](https://leetcode.com/problems/detect-cycles-in-2d-grid/) | Medium | 31 Jul 2026 | 07:17 pm |
 | 25 | [Unique Paths III](./LeetCode/Hard/Unique%20Paths%20III) | [LeetCode](https://leetcode.com/problems/unique-paths-iii/) | Hard | 01 Aug 2026 | 04:44 pm |
 | 26 | [Non-decreasing Subsequences](./LeetCode/Medium/Non-decreasing%20Subsequences) | [LeetCode](https://leetcode.com/problems/non-decreasing-subsequences/) | Medium | 01 Aug 2026 | 06:42 pm |
+| 27 | [Palindrome Partitioning](./LeetCode/Medium/Palindrome%20Partitioning) | [LeetCode](https://leetcode.com/problems/palindrome-partitioning/) | Medium | 01 Aug 2026 | 07:24 pm |

@@ -1,12 +1,12 @@
 {
-  "totalSolved": 26,
+  "totalSolved": 27,
   "currentStreak": 6,
   "maxStreak": 6,
   "lastSyncDate": "2026-08-01",
-  "todayCount": 2,
+  "todayCount": 3,
   "difficultyCounts": {
     "easy": 3,
-    "medium": 18,
+    "medium": 19,
     "hard": 5,
     "basic": 0
   },
@@ -36,7 +36,8 @@
     "LeetCode_Maximum_Number_of_Fish_in_a_Grid": true,
     "LeetCode_Detect_Cycles_in_2D_Grid": true,
     "LeetCode_Unique_Paths_III": true,
-    "LeetCode_Non-decreasing_Subsequences": true
+    "LeetCode_Non-decreasing_Subsequences": true,
+    "LeetCode_Palindrome_Partitioning": true
   },
   "activityHistory": {
     "2026-07-21": 3,
@@ -48,10 +49,11 @@
     "2026-07-29": 1,
     "2026-07-30": 8,
     "2026-07-31": 6,
-    "2026-08-01": 2
+    "2026-08-01": 3
   },
   "todayProblems": [
     "Unique Paths III",
-    "Non-decreasing Subsequences"
+    "Non-decreasing Subsequences",
+    "Palindrome Partitioning"
   ]
 }
