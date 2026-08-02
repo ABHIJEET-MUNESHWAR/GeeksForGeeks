@@ -8,8 +8,8 @@
 Backtracking
 
 ### 🚀 Performance
-- **Runtime:** 18 ms
-- **Memory:** 94.1 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 
