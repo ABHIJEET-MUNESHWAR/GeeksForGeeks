@@ -1,12 +1,12 @@
 {
-  "totalSolved": 34,
+  "totalSolved": 35,
   "currentStreak": 7,
   "maxStreak": 7,
   "lastSyncDate": "2026-08-02",
-  "todayCount": 4,
+  "todayCount": 5,
   "difficultyCounts": {
     "easy": 4,
-    "medium": 24,
+    "medium": 25,
     "hard": 6,
     "basic": 0
   },
@@ -44,7 +44,8 @@
     "LeetCode_Stone_Game": true,
     "LeetCode_Combinations": true,
     "LeetCode_Group_Anagrams": true,
-    "LeetCode_Linked_List_Cycle": true
+    "LeetCode_Linked_List_Cycle": true,
+    "LeetCode_Max_Area_of_Island": true
   },
   "activityHistory": {
     "2026-07-21": 3,
@@ -57,12 +58,13 @@
     "2026-07-30": 8,
     "2026-07-31": 6,
     "2026-08-01": 6,
-    "2026-08-02": 4
+    "2026-08-02": 5
   },
   "todayProblems": [
     "Stone Game",
     "Combinations",
     "Group Anagrams",
-    "Linked List Cycle"
+    "Linked List Cycle",
+    "Max Area of Island"
   ]
 }

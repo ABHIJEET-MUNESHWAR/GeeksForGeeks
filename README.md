@@ -34,3 +34,4 @@
 | 32 | [Combinations](./LeetCode/Medium/Combinations) | [LeetCode](https://leetcode.com/problems/combinations/) | Medium | 02 Aug 2026 | 11:32 am |
 | 33 | [Group Anagrams](./LeetCode/Medium/Group%20Anagrams) | [LeetCode](https://leetcode.com/problems/group-anagrams/) | Medium | 02 Aug 2026 | 07:49 pm |
 | 34 | [Linked List Cycle](./LeetCode/Easy/Linked%20List%20Cycle) | [LeetCode](https://leetcode.com/problems/linked-list-cycle/) | Easy | 02 Aug 2026 | 07:56 pm |
+| 35 | [Max Area of Island](./LeetCode/Medium/Max%20Area%20of%20Island) | [LeetCode](https://leetcode.com/problems/max-area-of-island/) | Medium | 02 Aug 2026 | 09:39 pm |
