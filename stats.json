@@ -1,11 +1,11 @@
 {
-  "totalSolved": 33,
+  "totalSolved": 34,
   "currentStreak": 7,
   "maxStreak": 7,
   "lastSyncDate": "2026-08-02",
-  "todayCount": 3,
+  "todayCount": 4,
   "difficultyCounts": {
-    "easy": 3,
+    "easy": 4,
     "medium": 24,
     "hard": 6,
     "basic": 0
@@ -43,7 +43,8 @@
     "LeetCode_Maximum_Number_of_Achievable_Transfer_Requests": true,
     "LeetCode_Stone_Game": true,
     "LeetCode_Combinations": true,
-    "LeetCode_Group_Anagrams": true
+    "LeetCode_Group_Anagrams": true,
+    "LeetCode_Linked_List_Cycle": true
   },
   "activityHistory": {
     "2026-07-21": 3,
@@ -56,11 +57,12 @@
     "2026-07-30": 8,
     "2026-07-31": 6,
     "2026-08-01": 6,
-    "2026-08-02": 3
+    "2026-08-02": 4
   },
   "todayProblems": [
     "Stone Game",
     "Combinations",
-    "Group Anagrams"
+    "Group Anagrams",
+    "Linked List Cycle"
   ]
 }
