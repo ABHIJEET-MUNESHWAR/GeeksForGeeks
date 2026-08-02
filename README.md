@@ -32,3 +32,4 @@
 | 30 | [Maximum Number of Achievable Transfer Requests](./LeetCode/Hard/Maximum%20Number%20of%20Achievable%20Transfer%20Requests) | [LeetCode](https://leetcode.com/problems/maximum-number-of-achievable-transfer-requests/) | Hard | 01 Aug 2026 | 10:23 pm |
 | 31 | [Stone Game](./LeetCode/Medium/Stone%20Game) | [LeetCode](https://leetcode.com/problems/stone-game/) | Medium | 02 Aug 2026 | 08:47 am |
 | 32 | [Combinations](./LeetCode/Medium/Combinations) | [LeetCode](https://leetcode.com/problems/combinations/) | Medium | 02 Aug 2026 | 11:32 am |
+| 33 | [Group Anagrams](./LeetCode/Medium/Group%20Anagrams) | [LeetCode](https://leetcode.com/problems/group-anagrams/) | Medium | 02 Aug 2026 | 07:49 pm |
