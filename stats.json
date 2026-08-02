@@ -1,12 +1,12 @@
 {
-  "totalSolved": 30,
-  "currentStreak": 6,
-  "maxStreak": 6,
-  "lastSyncDate": "2026-08-01",
-  "todayCount": 6,
+  "totalSolved": 31,
+  "currentStreak": 7,
+  "maxStreak": 7,
+  "lastSyncDate": "2026-08-02",
+  "todayCount": 1,
   "difficultyCounts": {
     "easy": 3,
-    "medium": 21,
+    "medium": 22,
     "hard": 6,
     "basic": 0
   },
@@ -40,7 +40,8 @@
     "LeetCode_Palindrome_Partitioning": true,
     "LeetCode_Predict_the_Winner": true,
     "LeetCode_Fair_Distribution_of_Cookies": true,
-    "LeetCode_Maximum_Number_of_Achievable_Transfer_Requests": true
+    "LeetCode_Maximum_Number_of_Achievable_Transfer_Requests": true,
+    "LeetCode_Stone_Game": true
   },
   "activityHistory": {
     "2026-07-21": 3,
@@ -52,14 +53,10 @@
     "2026-07-29": 1,
     "2026-07-30": 8,
     "2026-07-31": 6,
-    "2026-08-01": 6
+    "2026-08-01": 6,
+    "2026-08-02": 1
   },
   "todayProblems": [
-    "Unique Paths III",
-    "Non-decreasing Subsequences",
-    "Palindrome Partitioning",
-    "Predict the Winner",
-    "Fair Distribution of Cookies",
-    "Maximum Number of Achievable Transfer Requests"
+    "Stone Game"
   ]
 }
