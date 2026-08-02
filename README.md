@@ -35,3 +35,4 @@
 | 33 | [Group Anagrams](./LeetCode/Medium/Group%20Anagrams) | [LeetCode](https://leetcode.com/problems/group-anagrams/) | Medium | 02 Aug 2026 | 07:49 pm |
 | 34 | [Linked List Cycle](./LeetCode/Easy/Linked%20List%20Cycle) | [LeetCode](https://leetcode.com/problems/linked-list-cycle/) | Easy | 02 Aug 2026 | 07:56 pm |
 | 35 | [Max Area of Island](./LeetCode/Medium/Max%20Area%20of%20Island) | [LeetCode](https://leetcode.com/problems/max-area-of-island/) | Medium | 02 Aug 2026 | 09:39 pm |
+| 36 | [Longest Substring Without Repeating Characters](./LeetCode/Medium/Longest%20Substring%20Without%20Repeating%20Characters) | [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | 02 Aug 2026 | 09:51 pm |
