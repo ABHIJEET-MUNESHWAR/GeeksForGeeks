@@ -37,3 +37,4 @@
 | 35 | [Max Area of Island](./LeetCode/Medium/Max%20Area%20of%20Island) | [LeetCode](https://leetcode.com/problems/max-area-of-island/) | Medium | 02 Aug 2026 | 09:39 pm |
 | 36 | [Longest Substring Without Repeating Characters](./LeetCode/Medium/Longest%20Substring%20Without%20Repeating%20Characters) | [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | 02 Aug 2026 | 09:51 pm |
 | 37 | [Stone Game III](./LeetCode/Hard/Stone%20Game%20III) | [LeetCode](https://leetcode.com/problems/stone-game-iii/) | Hard | 03 Aug 2026 | 08:02 pm |
+| 38 | [Clone Graph](./LeetCode/Medium/Clone%20Graph) | [LeetCode](https://leetcode.com/problems/clone-graph/) | Medium | 03 Aug 2026 | 10:05 pm |
