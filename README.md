@@ -38,3 +38,4 @@
 | 36 | [Longest Substring Without Repeating Characters](./LeetCode/Medium/Longest%20Substring%20Without%20Repeating%20Characters) | [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | 02 Aug 2026 | 09:51 pm |
 | 37 | [Stone Game III](./LeetCode/Hard/Stone%20Game%20III) | [LeetCode](https://leetcode.com/problems/stone-game-iii/) | Hard | 03 Aug 2026 | 08:02 pm |
 | 38 | [Clone Graph](./LeetCode/Medium/Clone%20Graph) | [LeetCode](https://leetcode.com/problems/clone-graph/) | Medium | 03 Aug 2026 | 10:05 pm |
+| 39 | [Find Missing Elements](./LeetCode/Easy/Find%20Missing%20Elements) | [LeetCode](https://leetcode.com/problems/find-missing-elements/) | Easy | 04 Aug 2026 | 09:04 pm |
