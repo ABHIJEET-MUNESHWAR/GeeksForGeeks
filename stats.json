@@ -1,12 +1,12 @@
 {
-  "totalSolved": 40,
-  "currentStreak": 9,
-  "maxStreak": 9,
-  "lastSyncDate": "2026-08-04",
-  "todayCount": 2,
+  "totalSolved": 41,
+  "currentStreak": 10,
+  "maxStreak": 10,
+  "lastSyncDate": "2026-08-05",
+  "todayCount": 1,
   "difficultyCounts": {
     "easy": 5,
-    "medium": 28,
+    "medium": 29,
     "hard": 7,
     "basic": 0
   },
@@ -50,7 +50,8 @@
     "LeetCode_Stone_Game_III": true,
     "LeetCode_Clone_Graph": true,
     "LeetCode_Find_Missing_Elements": true,
-    "LeetCode_Minimum_Cost_For_Tickets": true
+    "LeetCode_Minimum_Cost_For_Tickets": true,
+    "LeetCode_Subsets": true
   },
   "activityHistory": {
     "2026-07-21": 3,
@@ -65,10 +66,10 @@
     "2026-08-01": 6,
     "2026-08-02": 6,
     "2026-08-03": 2,
-    "2026-08-04": 2
+    "2026-08-04": 2,
+    "2026-08-05": 1
   },
   "todayProblems": [
-    "Find Missing Elements",
-    "Minimum Cost For Tickets"
+    "Subsets"
   ]
 }

@@ -40,3 +40,4 @@
 | 38 | [Clone Graph](./LeetCode/Medium/Clone%20Graph) | [LeetCode](https://leetcode.com/problems/clone-graph/) | Medium | 03 Aug 2026 | 10:05 pm |
 | 39 | [Find Missing Elements](./LeetCode/Easy/Find%20Missing%20Elements) | [LeetCode](https://leetcode.com/problems/find-missing-elements/) | Easy | 04 Aug 2026 | 09:04 pm |
 | 40 | [Minimum Cost For Tickets](./LeetCode/Medium/Minimum%20Cost%20For%20Tickets) | [LeetCode](https://leetcode.com/problems/minimum-cost-for-tickets/) | Medium | 04 Aug 2026 | 09:22 pm |
+| 41 | [Subsets](./LeetCode/Medium/Subsets) | [LeetCode](https://leetcode.com/problems/subsets/) | Medium | 05 Aug 2026 | 09:40 pm |
