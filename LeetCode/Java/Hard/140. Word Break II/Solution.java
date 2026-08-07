@@ -1,33 +1,29 @@
 class Solution {
 
-    Set<String> set = new HashSet<>();
-    Map<String, List<String>> dpMap = new HashMap<>();
-
     public List<String> wordBreak(String s, List<String> wordDict) {
-        set.addAll(wordDict);
-        return solveWordBreakTwo(s);
+        List<String> resultList = new ArrayList<>();
+        String currentList = new String();
+        Set<String> wordDictSet = new HashSet<>();
+        wordDictSet.addAll(wordDict);
+        backTrackWordBreak(s, wordDictSet, currentList, resultList, 0);
+        return resultList;
     }
 
-    private List<String> solveWordBreakTwo(String s) {
-        if (s.isEmpty()) {
-            return Arrays.asList("");
+    public void backTrackWordBreak(String s, Set<String> wordDictSet, String currentList, List<String> resultList,
+            int i) {
+        int n = s.length();
+        if (i == n) {
+            resultList.add(new String(currentList));
+            return;
         }
-        if (dpMap.containsKey(s)) {
-            return dpMap.get(s);
-        }
-        List<String> result = new ArrayList<>();
-        for (int l = 1; l <= s.length(); l++) {
-            String currentWord = s.substring(0, l);
-            if (set.contains(currentWord)) {
-                String remainingWord = s.substring(l);
-                List<String> remainingResult = solveWordBreakTwo(remainingWord);
-                for (String word : remainingResult) {
-                    String toAdd = currentWord + (word.isEmpty() ? "" : " ") + word;
-                    result.add(toAdd);
-                }
+        for (int j = i + 1; j <= n; j++) {
+            String subString = s.substring(i, j);
+            if (wordDictSet.contains(subString)) {
+                String temp = currentList;
+                currentList = currentList.isEmpty() ? subString : currentList + " " + subString;
+                backTrackWordBreak(s, wordDictSet, currentList, resultList, j);
+                currentList = temp;
             }
         }
-        dpMap.put(s, result);
-        return result;
     }
 }
