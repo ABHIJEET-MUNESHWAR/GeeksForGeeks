@@ -8,8 +8,8 @@
 Array, Hash Table, String, Dynamic Programming, Backtracking, Trie, Memoization
 
 ### 🚀 Performance
-- **Runtime:** 3 ms
-- **Memory:** 48.8 MB
+- **Runtime:** 6 ms
+- **Memory:** 41.8 MB
 
 ---
 
