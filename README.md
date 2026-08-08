@@ -43,3 +43,4 @@
 | 41 | [Subsets](./LeetCode/Medium/Subsets) | [LeetCode](https://leetcode.com/problems/subsets/) | Medium | 05 Aug 2026 | 09:40 pm |
 | 42 | [Word Break](./LeetCode/Medium/Word%20Break) | [LeetCode](https://leetcode.com/problems/word-break/) | Medium | 08 Aug 2026 | 02:13 pm |
 | 43 | [Combination Sum](./LeetCode/Medium/Combination%20Sum) | [LeetCode](https://leetcode.com/problems/combination-sum/) | Medium | 08 Aug 2026 | 02:27 pm |
+| 44 | [Find the Lexicographically Smallest Valid Sequence](./LeetCode/Medium/Find%20the%20Lexicographically%20Smallest%20Valid%20Sequence) | [LeetCode](https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/) | Medium | 08 Aug 2026 | 06:35 pm |

@@ -1,12 +1,12 @@
 {
-  "totalSolved": 43,
+  "totalSolved": 44,
   "currentStreak": 1,
   "maxStreak": 10,
   "lastSyncDate": "2026-08-08",
-  "todayCount": 2,
+  "todayCount": 3,
   "difficultyCounts": {
     "easy": 5,
-    "medium": 31,
+    "medium": 32,
     "hard": 7,
     "basic": 0
   },
@@ -53,7 +53,8 @@
     "LeetCode_Minimum_Cost_For_Tickets": true,
     "LeetCode_Subsets": true,
     "LeetCode_Word_Break": true,
-    "LeetCode_Combination_Sum": true
+    "LeetCode_Combination_Sum": true,
+    "LeetCode_Find_the_Lexicographically_Smallest_Valid_Sequence": true
   },
   "activityHistory": {
     "2026-07-21": 3,
@@ -70,10 +71,11 @@
     "2026-08-03": 2,
     "2026-08-04": 2,
     "2026-08-05": 1,
-    "2026-08-08": 2
+    "2026-08-08": 3
   },
   "todayProblems": [
     "Word Break",
-    "Combination Sum"
+    "Combination Sum",
+    "Find the Lexicographically Smallest Valid Sequence"
   ]
 }
