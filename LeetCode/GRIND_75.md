@@ -3,7 +3,7 @@
 Track your progress on the Grind 75 coding interview preparation list.
 
 ## Progress
-- **Completed:** 28 / 75 (37.3%)
+- **Completed:** 29 / 75 (38.7%)
 
 ---
 
@@ -36,7 +36,7 @@ Track your progress on the Grind 75 coding interview preparation list.
 - [x] [Word Break](./Java/Medium/139. Word Break/)
 - [x] [Combination Sum](./Java/Medium/39. Combination Sum/)
 - [x] [House Robber](./Java/Medium/198. House Robber/)
-- [ ] House Robber II
+- [x] [House Robber II](./Java/Medium/213. House Robber II/)
 - [ ] Decode Ways
 - [ ] Unique Paths
 - [ ] Jump Game
