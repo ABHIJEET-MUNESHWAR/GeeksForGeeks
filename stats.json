@@ -1,12 +1,12 @@
 {
-  "totalSolved": 49,
+  "totalSolved": 50,
   "currentStreak": 2,
   "maxStreak": 10,
   "lastSyncDate": "2026-08-09",
-  "todayCount": 5,
+  "todayCount": 6,
   "difficultyCounts": {
     "easy": 5,
-    "medium": 37,
+    "medium": 38,
     "hard": 7,
     "basic": 0
   },
@@ -59,7 +59,8 @@
     "LeetCode_Find_Minimum_in_Rotated_Sorted_Array": true,
     "LeetCode_Search_in_Rotated_Sorted_Array": true,
     "LeetCode_Lowest_Common_Ancestor_of_a_Binary_Tree": true,
-    "LeetCode_Validate_Binary_Search_Tree": true
+    "LeetCode_Validate_Binary_Search_Tree": true,
+    "LeetCode_House_Robber": true
   },
   "activityHistory": {
     "2026-07-21": 3,
@@ -77,13 +78,14 @@
     "2026-08-04": 2,
     "2026-08-05": 1,
     "2026-08-08": 3,
-    "2026-08-09": 5
+    "2026-08-09": 6
   },
   "todayProblems": [
     "Stone Game II",
     "Find Minimum in Rotated Sorted Array",
     "Search in Rotated Sorted Array",
     "Lowest Common Ancestor of a Binary Tree",
-    "Validate Binary Search Tree"
+    "Validate Binary Search Tree",
+    "House Robber"
   ]
 }
