@@ -3,7 +3,7 @@
 Track your progress on the Grind 75 coding interview preparation list.
 
 ## Progress
-- **Completed:** 10 / 75 (13.3%)
+- **Completed:** 11 / 75 (14.7%)
 
 ---
 
@@ -46,7 +46,7 @@ Track your progress on the Grind 75 coding interview preparation list.
 - [ ] Course Schedule
 - [x] [Pacific Atlantic Water Flow](./Java/Medium/417. Pacific Atlantic Water Flow/)
 - [ ] Number of Islands
-- [ ] Longest Consecutive Sequence
+- [x] [Longest Consecutive Sequence](./Java/Medium/128. Longest Consecutive Sequence/)
 - [ ] Alien Dictionary
 - [ ] Graph Valid Tree
 - [ ] Number of Connected Components in an Undirected Graph
