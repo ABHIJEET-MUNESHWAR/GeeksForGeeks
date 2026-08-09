@@ -48,3 +48,4 @@
 | 46 | [Find Minimum in Rotated Sorted Array](./LeetCode/Medium/Find%20Minimum%20in%20Rotated%20Sorted%20Array) | [LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | 09 Aug 2026 | 07:48 pm |
 | 47 | [Search in Rotated Sorted Array](./LeetCode/Medium/Search%20in%20Rotated%20Sorted%20Array) | [LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | 09 Aug 2026 | 07:58 pm |
 | 48 | [Lowest Common Ancestor of a Binary Tree](./LeetCode/Medium/Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree) | [LeetCode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Medium | 09 Aug 2026 | 08:22 pm |
+| 49 | [Validate Binary Search Tree](./LeetCode/Medium/Validate%20Binary%20Search%20Tree) | [LeetCode](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | 09 Aug 2026 | 08:29 pm |
