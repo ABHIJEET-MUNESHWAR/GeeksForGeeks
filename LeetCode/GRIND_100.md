@@ -3,7 +3,7 @@
 Track your progress on the Grind 100 coding interview preparation list.
 
 ## Progress
-- **Completed:** 19 / 100 (19.0%)
+- **Completed:** 20 / 100 (20.0%)
 
 ---
 
@@ -63,7 +63,7 @@ Track your progress on the Grind 100 coding interview preparation list.
 - [ ] Binary Tree Inorder Traversal
 - [x] [Binary Tree Level Order Traversal](./Java/Medium/102. Binary Tree Level Order Traversal/)
 - [ ] Convert Sorted Array to Binary Search Tree
-- [ ] Validate Binary Search Tree
+- [x] [Validate Binary Search Tree](./Java/Medium/98. Validate Binary Search Tree/)
 - [x] [Lowest Common Ancestor of a Binary Tree](./Java/Medium/236. Lowest Common Ancestor of a Binary Tree/)
 - [ ] Kth Smallest Element in a BST
 - [ ] Construct Binary Tree from Preorder and Inorder Traversal
