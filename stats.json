@@ -1,12 +1,12 @@
 {
-  "totalSolved": 45,
+  "totalSolved": 46,
   "currentStreak": 2,
   "maxStreak": 10,
   "lastSyncDate": "2026-08-09",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 5,
-    "medium": 33,
+    "medium": 34,
     "hard": 7,
     "basic": 0
   },
@@ -55,7 +55,8 @@
     "LeetCode_Word_Break": true,
     "LeetCode_Combination_Sum": true,
     "LeetCode_Find_the_Lexicographically_Smallest_Valid_Sequence": true,
-    "LeetCode_Stone_Game_II": true
+    "LeetCode_Stone_Game_II": true,
+    "LeetCode_Find_Minimum_in_Rotated_Sorted_Array": true
   },
   "activityHistory": {
     "2026-07-21": 3,
@@ -73,9 +74,10 @@
     "2026-08-04": 2,
     "2026-08-05": 1,
     "2026-08-08": 3,
-    "2026-08-09": 1
+    "2026-08-09": 2
   },
   "todayProblems": [
-    "Stone Game II"
+    "Stone Game II",
+    "Find Minimum in Rotated Sorted Array"
   ]
 }
