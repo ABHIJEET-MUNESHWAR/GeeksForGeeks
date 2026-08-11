@@ -1,11 +1,11 @@
 {
-  "totalSolved": 51,
-  "currentStreak": 3,
+  "totalSolved": 52,
+  "currentStreak": 4,
   "maxStreak": 10,
-  "lastSyncDate": "2026-08-10",
+  "lastSyncDate": "2026-08-11",
   "todayCount": 1,
   "difficultyCounts": {
-    "easy": 5,
+    "easy": 6,
     "medium": 38,
     "hard": 8,
     "basic": 0
@@ -61,7 +61,8 @@
     "LeetCode_Lowest_Common_Ancestor_of_a_Binary_Tree": true,
     "LeetCode_Validate_Binary_Search_Tree": true,
     "LeetCode_House_Robber": true,
-    "LeetCode_Stone_Game_IV": true
+    "LeetCode_Stone_Game_IV": true,
+    "LeetCode_Smallest_Missing_Integer_Greater_Than_Sequential_Prefix_Sum": true
   },
   "activityHistory": {
     "2026-07-21": 3,
@@ -80,9 +81,10 @@
     "2026-08-05": 1,
     "2026-08-08": 3,
     "2026-08-09": 6,
-    "2026-08-10": 1
+    "2026-08-10": 1,
+    "2026-08-11": 1
   },
   "todayProblems": [
-    "Stone Game IV"
+    "Smallest Missing Integer Greater Than Sequential Prefix Sum"
   ]
 }

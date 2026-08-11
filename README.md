@@ -51,3 +51,4 @@
 | 49 | [Validate Binary Search Tree](./LeetCode/Medium/Validate%20Binary%20Search%20Tree) | [LeetCode](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | 09 Aug 2026 | 08:29 pm |
 | 50 | [House Robber](./LeetCode/Medium/House%20Robber) | [LeetCode](https://leetcode.com/problems/house-robber/) | Medium | 09 Aug 2026 | 09:34 pm |
 | 51 | [Stone Game IV](./LeetCode/Hard/Stone%20Game%20IV) | [LeetCode](https://leetcode.com/problems/stone-game-iv/) | Hard | 10 Aug 2026 | 10:00 pm |
+| 52 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](./LeetCode/Easy/Smallest%20Missing%20Integer%20Greater%20Than%20Sequential%20Prefix%20Sum) | [LeetCode](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum/) | Easy | 11 Aug 2026 | 08:04 pm |
