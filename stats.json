@@ -1,12 +1,12 @@
 {
-  "totalSolved": 53,
+  "totalSolved": 54,
   "currentStreak": 5,
   "maxStreak": 10,
   "lastSyncDate": "2026-08-12",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 6,
-    "medium": 39,
+    "medium": 40,
     "hard": 8,
     "basic": 0
   },
@@ -63,7 +63,8 @@
     "LeetCode_House_Robber": true,
     "LeetCode_Stone_Game_IV": true,
     "LeetCode_Smallest_Missing_Integer_Greater_Than_Sequential_Prefix_Sum": true,
-    "LeetCode_Number_of_Islands": true
+    "LeetCode_Number_of_Islands": true,
+    "LeetCode_Length_of_Longest_Subarray_With_at_Most_K_Frequency": true
   },
   "activityHistory": {
     "2026-07-21": 3,
@@ -84,9 +85,10 @@
     "2026-08-09": 6,
     "2026-08-10": 1,
     "2026-08-11": 1,
-    "2026-08-12": 1
+    "2026-08-12": 2
   },
   "todayProblems": [
-    "Number of Islands"
+    "Number of Islands",
+    "Length of Longest Subarray With at Most K Frequency"
   ]
 }
