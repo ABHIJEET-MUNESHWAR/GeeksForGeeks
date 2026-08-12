@@ -1,12 +1,12 @@
 {
-  "totalSolved": 52,
-  "currentStreak": 4,
+  "totalSolved": 53,
+  "currentStreak": 5,
   "maxStreak": 10,
-  "lastSyncDate": "2026-08-11",
+  "lastSyncDate": "2026-08-12",
   "todayCount": 1,
   "difficultyCounts": {
     "easy": 6,
-    "medium": 38,
+    "medium": 39,
     "hard": 8,
     "basic": 0
   },
@@ -62,7 +62,8 @@
     "LeetCode_Validate_Binary_Search_Tree": true,
     "LeetCode_House_Robber": true,
     "LeetCode_Stone_Game_IV": true,
-    "LeetCode_Smallest_Missing_Integer_Greater_Than_Sequential_Prefix_Sum": true
+    "LeetCode_Smallest_Missing_Integer_Greater_Than_Sequential_Prefix_Sum": true,
+    "LeetCode_Number_of_Islands": true
   },
   "activityHistory": {
     "2026-07-21": 3,
@@ -82,9 +83,10 @@
     "2026-08-08": 3,
     "2026-08-09": 6,
     "2026-08-10": 1,
-    "2026-08-11": 1
+    "2026-08-11": 1,
+    "2026-08-12": 1
   },
   "todayProblems": [
-    "Smallest Missing Integer Greater Than Sequential Prefix Sum"
+    "Number of Islands"
   ]
 }
