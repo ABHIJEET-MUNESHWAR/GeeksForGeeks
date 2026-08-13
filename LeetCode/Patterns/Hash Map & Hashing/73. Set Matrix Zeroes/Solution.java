@@ -4,13 +4,13 @@ class Solution {
         int n = matrix[0].length;
         boolean isFirstRowZero = false, isFirstColZero = false;
         for (int i = 0; i < m; i++) {
-            if (matrix[0][i] == 0) {
+            if (matrix[i][0] == 0) {
                 isFirstRowZero = true;
                 break;
             }
         }
         for (int j = 0; j < n; j++) {
-            if (matrix[j][0] == 0) {
+            if (matrix[0][j] == 0) {
                 isFirstColZero = true;
                 break;
             }
