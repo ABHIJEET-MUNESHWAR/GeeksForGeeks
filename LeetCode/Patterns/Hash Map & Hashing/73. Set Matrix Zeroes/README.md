@@ -2,14 +2,14 @@
 
 🔗 [Problem Link](https://leetcode.com/problems/set-matrix-zeroes/)
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
+![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Go-blue)
 
 ### 💡 Tags
 Array, Hash Table, Matrix
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 0 ms
+- **Memory:** 7.9 MB
 
 ---
 
