@@ -2,14 +2,14 @@
 
 🔗 [Problem Link](https://leetcode.com/problems/maximum-product-subarray/)
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Go-blue)
+![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
 ### 💡 Tags
 Array, Dynamic Programming
 
 ### 🚀 Performance
-- **Runtime:** 0 ms
-- **Memory:** 5.5 MB
+- **Runtime:** 1 ms
+- **Memory:** 44.9 MB
 
 ---
 
