@@ -15,7 +15,7 @@ Track your progress on the Grind 75 coding interview preparation list.
 - [ ] Contains Duplicate
 - [x] [Product of Array Except Self](./Java/Medium/238. Product of Array Except Self/)
 - [ ] Maximum Subarray
-- [x] [Maximum Product Subarray](./Go/Medium/152. Maximum Product Subarray/)
+- [x] [Maximum Product Subarray](./Java/Medium/152. Maximum Product Subarray/)
 - [x] [Find Minimum in Rotated Sorted Array](./Java/Medium/153. Find Minimum in Rotated Sorted Array/)
 - [x] [Search in Rotated Sorted Array](./Java/Medium/33. Search in Rotated Sorted Array/)
 - [ ] 3Sum
