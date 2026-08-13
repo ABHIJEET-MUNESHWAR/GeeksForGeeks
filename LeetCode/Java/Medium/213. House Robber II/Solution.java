@@ -3,28 +3,35 @@ class Solution {
 
     public int rob(int[] nums) {
         int size = nums.length;
+        int prevPrev = 0;
+        int prev = 0;
+        int temp = 0;
+
         if (size == 1) {
             return nums[0];
         }
-        if (size == 2) {
-            return Math.max(nums[0], nums[1]);
+        for (int i = 1; i <= size - 1; i++) {
+            int steal = nums[i - 1] + prevPrev;
+            int skip = prev;
+            temp = Math.max(steal, skip);
+            prevPrev = prev;
+            prev = temp;
         }
-        Arrays.fill(dp, -1);
-        int take0thIndexHouse = solve(nums, 0, size - 2);
-        Arrays.fill(dp, -1);
-        int take1stIndexHouse = solve(nums, 1, size - 1);
-        return Math.max(take0thIndexHouse, take1stIndexHouse);
+        int result1 = prev;
+
+        prevPrev = 0;
+        prev = 0;
+        temp = 0;
+        dp = new int[size + 1];
+        for (int i = 2; i <= size; i++) {
+            int steal = nums[i - 1] + prevPrev;
+            int skip = prev;
+            temp = Math.max(steal, skip);
+            prevPrev = prev;
+            prev = temp;
+        }
+        int result2 = prev;
+        return Math.max(result1, result2);
     }
 
-    private int solve(int[] nums, int index, int size) {
-        if (index > size) {
-            return 0;
-        }
-        if (dp[index] != -1) {
-            return dp[index];
-        }
-        int steal = nums[index] + solve(nums, index + 2, size);
-        int skip = solve(nums, index + 1, size);
-        return Math.max(steal, skip);
-    }
 }
