@@ -1,13 +1,13 @@
 {
-  "totalSolved": 55,
+  "totalSolved": 56,
   "currentStreak": 6,
   "maxStreak": 10,
   "lastSyncDate": "2026-08-13",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 6,
     "medium": 41,
-    "hard": 8,
+    "hard": 9,
     "basic": 0
   },
   "syncedProblems": {
@@ -65,7 +65,8 @@
     "LeetCode_Smallest_Missing_Integer_Greater_Than_Sequential_Prefix_Sum": true,
     "LeetCode_Number_of_Islands": true,
     "LeetCode_Length_of_Longest_Subarray_With_at_Most_K_Frequency": true,
-    "GeeksForGeeks_Topological_Sort": true
+    "GeeksForGeeks_Topological_Sort": true,
+    "LeetCode_Longest_Substring_of_One_Repeating_Character": true
   },
   "activityHistory": {
     "2026-07-21": 3,
@@ -87,9 +88,10 @@
     "2026-08-10": 1,
     "2026-08-11": 1,
     "2026-08-12": 2,
-    "2026-08-13": 1
+    "2026-08-13": 2
   },
   "todayProblems": [
-    "Topological Sort"
+    "Topological Sort",
+    "Longest Substring of One Repeating Character"
   ]
 }
