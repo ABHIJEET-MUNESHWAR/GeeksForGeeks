@@ -1,13 +1,9 @@
 class Solution {
     public int maxProduct(int[] nums) {
-        int size = nums.length;
-        if (size == 1) {
-            return nums[0];
-        }
-        int prefix = 1;
-        int suffix = 1;
-        int result = Integer.MIN_VALUE;
-        for (int i = 0; i < size; i++) {
+        int prefix = 1, suffix = 1;
+        int maxProduct = Integer.MIN_VALUE;
+        int n = nums.length;
+        for (int i = 0; i < n; i++) {
             if (prefix == 0) {
                 prefix = 1;
             }
@@ -15,9 +11,9 @@ class Solution {
                 suffix = 1;
             }
             prefix *= nums[i];
-            suffix *= nums[size - i - 1];
-            result = Math.max(result, Math.max(prefix, suffix));
+            suffix *= nums[n - i - 1];
+            maxProduct = Math.max(maxProduct, Math.max(prefix, suffix));
         }
-        return result;
+        return maxProduct;
     }
 }
