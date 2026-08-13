@@ -56,3 +56,4 @@
 | 54 | [Length of Longest Subarray With at Most K Frequency](./LeetCode/Medium/Length%20of%20Longest%20Subarray%20With%20at%20Most%20K%20Frequency) | [LeetCode](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/) | Medium | 12 Aug 2026 | 08:49 pm |
 | 55 | [Topological Sort](./GeeksForGeeks/Medium/Topological%20Sort) | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/topological-sort/1) | Medium | 13 Aug 2026 | 03:17 pm |
 | 56 | [Longest Substring of One Repeating Character](./LeetCode/Hard/Longest%20Substring%20of%20One%20Repeating%20Character) | [LeetCode](https://leetcode.com/problems/longest-substring-of-one-repeating-character/) | Hard | 13 Aug 2026 | 08:48 pm |
+| 57 | [Set Matrix Zeroes](./LeetCode/Medium/Set%20Matrix%20Zeroes) | [LeetCode](https://leetcode.com/problems/set-matrix-zeroes/) | Medium | 13 Aug 2026 | 10:21 pm |
