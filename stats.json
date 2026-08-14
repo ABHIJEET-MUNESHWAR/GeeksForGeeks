@@ -1,11 +1,11 @@
 {
-  "totalSolved": 57,
-  "currentStreak": 6,
+  "totalSolved": 58,
+  "currentStreak": 7,
   "maxStreak": 10,
-  "lastSyncDate": "2026-08-13",
-  "todayCount": 3,
+  "lastSyncDate": "2026-08-14",
+  "todayCount": 1,
   "difficultyCounts": {
-    "easy": 6,
+    "easy": 7,
     "medium": 42,
     "hard": 9,
     "basic": 0
@@ -67,7 +67,8 @@
     "LeetCode_Length_of_Longest_Subarray_With_at_Most_K_Frequency": true,
     "GeeksForGeeks_Topological_Sort": true,
     "LeetCode_Longest_Substring_of_One_Repeating_Character": true,
-    "LeetCode_Set_Matrix_Zeroes": true
+    "LeetCode_Set_Matrix_Zeroes": true,
+    "LeetCode_Maximum_Length_Substring_With_Two_Occurrences": true
   },
   "activityHistory": {
     "2026-07-21": 3,
@@ -89,11 +90,10 @@
     "2026-08-10": 1,
     "2026-08-11": 1,
     "2026-08-12": 2,
-    "2026-08-13": 3
+    "2026-08-13": 3,
+    "2026-08-14": 1
   },
   "todayProblems": [
-    "Topological Sort",
-    "Longest Substring of One Repeating Character",
-    "Set Matrix Zeroes"
+    "Maximum Length Substring With Two Occurrences"
   ]
 }
