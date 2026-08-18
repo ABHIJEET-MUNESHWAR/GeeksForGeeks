@@ -62,3 +62,4 @@
 | 60 | [Stone Game IX](./LeetCode/Medium/Stone%20Game%20IX) | [LeetCode](https://leetcode.com/problems/stone-game-ix/) | Medium | 16 Aug 2026 | 03:01 pm |
 | 61 | [Stone Game V](./LeetCode/Hard/Stone%20Game%20V) | [LeetCode](https://leetcode.com/problems/stone-game-v/) | Hard | 17 Aug 2026 | 07:57 pm |
 | 62 | [Move Zeroes](./LeetCode/Easy/Move%20Zeroes) | [LeetCode](https://leetcode.com/problems/move-zeroes/) | Easy | 18 Aug 2026 | 09:31 pm |
+| 63 | [Find the Largest Almost Missing Integer](./LeetCode/Easy/Find%20the%20Largest%20Almost%20Missing%20Integer) | [LeetCode](https://leetcode.com/problems/find-the-largest-almost-missing-integer/) | Easy | 18 Aug 2026 | 10:05 pm |
