@@ -64,3 +64,4 @@
 | 62 | [Move Zeroes](./LeetCode/Easy/Move%20Zeroes) | [LeetCode](https://leetcode.com/problems/move-zeroes/) | Easy | 18 Aug 2026 | 09:31 pm |
 | 63 | [Find the Largest Almost Missing Integer](./LeetCode/Easy/Find%20the%20Largest%20Almost%20Missing%20Integer) | [LeetCode](https://leetcode.com/problems/find-the-largest-almost-missing-integer/) | Easy | 18 Aug 2026 | 10:05 pm |
 | 64 | [Sudoku Solver](./LeetCode/Hard/Sudoku%20Solver) | [LeetCode](https://leetcode.com/problems/sudoku-solver/) | Hard | 20 Aug 2026 | 09:13 pm |
+| 65 | [Two Sum](./LeetCode/Easy/Two%20Sum) | [LeetCode](https://leetcode.com/problems/two-sum/) | Easy | 20 Aug 2026 | 09:39 pm |
