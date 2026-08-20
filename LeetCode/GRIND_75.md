@@ -3,14 +3,14 @@
 Track your progress on the Grind 75 coding interview preparation list.
 
 ## Progress
-- **Completed:** 43 / 75 (57.3%)
+- **Completed:** 44 / 75 (58.7%)
 
 ---
 
 ## Checklist
 
 ### 📂 Array
-- [ ] Two Sum
+- [x] [Two Sum](./Java/Easy/1. Two Sum/)
 - [ ] Best Time to Buy and Sell Stock
 - [x] [Contains Duplicate](./Java/Easy/217. Contains Duplicate/)
 - [x] [Product of Array Except Self](./Java/Medium/238. Product of Array Except Self/)
