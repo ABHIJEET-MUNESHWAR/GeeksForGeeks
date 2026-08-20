@@ -1,13 +1,13 @@
 {
-  "totalSolved": 63,
-  "currentStreak": 11,
+  "totalSolved": 64,
+  "currentStreak": 1,
   "maxStreak": 11,
-  "lastSyncDate": "2026-08-18",
-  "todayCount": 2,
+  "lastSyncDate": "2026-08-20",
+  "todayCount": 1,
   "difficultyCounts": {
     "easy": 9,
     "medium": 44,
-    "hard": 10,
+    "hard": 11,
     "basic": 0
   },
   "syncedProblems": {
@@ -73,7 +73,8 @@
     "LeetCode_Stone_Game_IX": true,
     "LeetCode_Stone_Game_V": true,
     "LeetCode_Move_Zeroes": true,
-    "LeetCode_Find_the_Largest_Almost_Missing_Integer": true
+    "LeetCode_Find_the_Largest_Almost_Missing_Integer": true,
+    "LeetCode_Sudoku_Solver": true
   },
   "activityHistory": {
     "2026-07-21": 3,
@@ -100,10 +101,10 @@
     "2026-08-15": 1,
     "2026-08-16": 1,
     "2026-08-17": 1,
-    "2026-08-18": 2
+    "2026-08-18": 2,
+    "2026-08-20": 1
   },
   "todayProblems": [
-    "Move Zeroes",
-    "Find the Largest Almost Missing Integer"
+    "Sudoku Solver"
   ]
 }
