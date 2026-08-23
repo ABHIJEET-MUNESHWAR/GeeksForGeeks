@@ -66,3 +66,4 @@
 | 64 | [Sudoku Solver](./LeetCode/Hard/Sudoku%20Solver) | [LeetCode](https://leetcode.com/problems/sudoku-solver/) | Hard | 20 Aug 2026 | 09:13 pm |
 | 65 | [Two Sum](./LeetCode/Easy/Two%20Sum) | [LeetCode](https://leetcode.com/problems/two-sum/) | Easy | 20 Aug 2026 | 09:39 pm |
 | 66 | [Invert Binary Tree](./LeetCode/Easy/Invert%20Binary%20Tree) | [LeetCode](https://leetcode.com/problems/invert-binary-tree/) | Easy | 20 Aug 2026 | 09:45 pm |
+| 67 | [Sum Game](./LeetCode/Medium/Sum%20Game) | [LeetCode](https://leetcode.com/problems/sum-game/) | Medium | 23 Aug 2026 | 02:06 pm |
