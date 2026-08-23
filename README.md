@@ -68,3 +68,4 @@
 | 66 | [Invert Binary Tree](./LeetCode/Easy/Invert%20Binary%20Tree) | [LeetCode](https://leetcode.com/problems/invert-binary-tree/) | Easy | 20 Aug 2026 | 09:45 pm |
 | 67 | [Sum Game](./LeetCode/Medium/Sum%20Game) | [LeetCode](https://leetcode.com/problems/sum-game/) | Medium | 23 Aug 2026 | 02:06 pm |
 | 68 | [Directed Graph Cycle](./GeeksForGeeks/Medium/Directed%20Graph%20Cycle) | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1) | Medium | 23 Aug 2026 | 02:55 pm |
+| 69 | [Course Schedule](./LeetCode/Medium/Course%20Schedule) | [LeetCode](https://leetcode.com/problems/course-schedule/) | Medium | 23 Aug 2026 | 03:15 pm |
