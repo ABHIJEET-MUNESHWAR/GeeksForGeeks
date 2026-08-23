@@ -8,8 +8,8 @@
 Depth-First Search, Breadth-First Search, Graph Theory, Topological Sort
 
 ### 🚀 Performance
-- **Runtime:** 4 ms
-- **Memory:** 45.4 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 
