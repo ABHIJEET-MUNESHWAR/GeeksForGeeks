@@ -1,12 +1,12 @@
 {
-  "totalSolved": 67,
+  "totalSolved": 68,
   "currentStreak": 1,
   "maxStreak": 11,
   "lastSyncDate": "2026-08-23",
-  "todayCount": 1,
+  "todayCount": 2,
   "difficultyCounts": {
     "easy": 11,
-    "medium": 45,
+    "medium": 46,
     "hard": 11,
     "basic": 0
   },
@@ -77,7 +77,8 @@
     "LeetCode_Sudoku_Solver": true,
     "LeetCode_Two_Sum": true,
     "LeetCode_Invert_Binary_Tree": true,
-    "LeetCode_Sum_Game": true
+    "LeetCode_Sum_Game": true,
+    "GeeksForGeeks_Directed_Graph_Cycle": true
   },
   "activityHistory": {
     "2026-07-21": 3,
@@ -106,9 +107,10 @@
     "2026-08-17": 1,
     "2026-08-18": 2,
     "2026-08-20": 3,
-    "2026-08-23": 1
+    "2026-08-23": 2
   },
   "todayProblems": [
-    "Sum Game"
+    "Sum Game",
+    "Directed Graph Cycle"
   ]
 }
