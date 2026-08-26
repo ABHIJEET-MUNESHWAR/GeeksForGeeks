@@ -1,12 +1,12 @@
 {
-  "totalSolved": 70,
+  "totalSolved": 71,
   "currentStreak": 1,
   "maxStreak": 11,
-  "lastSyncDate": "2026-08-23",
-  "todayCount": 4,
+  "lastSyncDate": "2026-08-26",
+  "todayCount": 1,
   "difficultyCounts": {
     "easy": 11,
-    "medium": 48,
+    "medium": 49,
     "hard": 11,
     "basic": 0
   },
@@ -80,7 +80,8 @@
     "LeetCode_Sum_Game": true,
     "GeeksForGeeks_Directed_Graph_Cycle": true,
     "LeetCode_Course_Schedule": true,
-    "LeetCode_Course_Schedule_II": true
+    "LeetCode_Course_Schedule_II": true,
+    "LeetCode_Shortest_and_Lexicographically_Smallest_Beautiful_String": true
   },
   "activityHistory": {
     "2026-07-21": 3,
@@ -109,12 +110,10 @@
     "2026-08-17": 1,
     "2026-08-18": 2,
     "2026-08-20": 3,
-    "2026-08-23": 4
+    "2026-08-23": 4,
+    "2026-08-26": 1
   },
   "todayProblems": [
-    "Sum Game",
-    "Directed Graph Cycle",
-    "Course Schedule",
-    "Course Schedule II"
+    "Shortest and Lexicographically Smallest Beautiful String"
   ]
 }

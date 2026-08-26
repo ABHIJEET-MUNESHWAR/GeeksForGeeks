@@ -70,3 +70,4 @@
 | 68 | [Directed Graph Cycle](./GeeksForGeeks/Medium/Directed%20Graph%20Cycle) | [GeeksForGeeks](https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1) | Medium | 23 Aug 2026 | 02:55 pm |
 | 69 | [Course Schedule](./LeetCode/Medium/Course%20Schedule) | [LeetCode](https://leetcode.com/problems/course-schedule/) | Medium | 23 Aug 2026 | 03:15 pm |
 | 70 | [Course Schedule II](./LeetCode/Medium/Course%20Schedule%20II) | [LeetCode](https://leetcode.com/problems/course-schedule-ii/) | Medium | 23 Aug 2026 | 03:43 pm |
+| 71 | [Shortest and Lexicographically Smallest Beautiful String](./LeetCode/Medium/Shortest%20and%20Lexicographically%20Smallest%20Beautiful%20String) | [LeetCode](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | Medium | 26 Aug 2026 | 11:16 am |
